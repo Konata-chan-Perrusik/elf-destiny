@@ -17,7 +17,7 @@
 
   elf_syncretic_actor_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
 
-  special_doctrine_is_elf_faith_name:0 "Эльфийская Адаптивность"
+  special_doctrine_is_elf_faith_name:0 "Эльфийская адаптивность"
   is_elf_faith_name:0 "$special_doctrine_is_christian_faith_name$"
   special_doctrine_is_elf_faith_desc:0 "В мире есть те, кто не понимает и не верит в волю Божественной Искры. Хотя это и богохульство, мы должны проявлять сострадание к этим заблудшим душам, ибо однажды они могут обратиться к истинной вере."
 

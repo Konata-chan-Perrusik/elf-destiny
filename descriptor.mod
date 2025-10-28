@@ -4,3 +4,4 @@ tags={
 }
 name="Elf Destiny [Ru]"
 supported_version="1.17.1"
+remote_file_id="3595075200"

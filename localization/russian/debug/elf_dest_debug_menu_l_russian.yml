@@ -1,36 +1,36 @@
 ﻿l_russian:
-    rule_elf_dest_debug_menu:0 "Меню отладки Эльфийской Судьбы"
+    rule_elf_dest_debug_menu:0 "Меню отладки Эльфийской судьбы"
     setting_elf_dest_debug_menu_turned_off:0 "Выкл"
-    setting_elf_dest_debug_menu_turned_off_desc:0 "Меню отладки/читов 'Эльфийская Судьба' будет скрыто"
+    setting_elf_dest_debug_menu_turned_off_desc:0 "Меню отладки/читов 'Эльфийская судьба' будет скрыто"
     setting_elf_dest_debug_menu_turned_on:0 "Вкл"
-    setting_elf_dest_debug_menu_turned_on_desc:0 "Меню отладки/читов 'Эльфийская Судьба' будет показано"
+    setting_elf_dest_debug_menu_turned_on_desc:0 "Меню отладки/читов 'Эльфийская судьба' будет показано"
 
     elf_debug_menu:0 "Меню отладки эльфов"
-    elf_debug_menu_tooltip:0 "Меню отладки для управления контентом Эльфийской Судьбы!"
-    elf_debug_menu_desc:0 "#tooltip_heading Меню для редактирования игрового состояния Эльфийской Судьбы!#!\n#tooltip_subheading Смотрите меню взаимодействия с персонажем для дополнительных опций#!"
-    elf_dest_debug_skip_story:0 "Пропустить вперёд в сюжете Эльфийской Судьбы"
-    elf_dest_debug_spawn_artifacts:0 "Создать особые артефакты Эльфийской Судьбы"
+    elf_debug_menu_tooltip:0 "Меню отладки для управления контентом Эльфийской судьбы!"
+    elf_debug_menu_desc:0 "#tooltip_heading Меню для редактирования игрового состояния эльфийской судьбы!#!\n#tooltip_subheading Смотрите меню взаимодействия с персонажем для дополнительных опций#!"
+    elf_dest_debug_skip_story:0 "Пропустить вперёд в сюжете Эльфийской судьбы"
+    elf_dest_debug_spawn_artifacts:0 "Создать особые артефакты Эльфийской судьбы"
 
     elf_debug_menu_confirm:0 "Открыть меню"
 
     elf_destiny_debug_menu:0 "Редактор эльфийских персонажей"
     elf_destiny_debug_menu_desc:0 "Меню отладки для создания эльфа вашей мечты!"
 
-    elf_destiny_debug_menu.01.title:0 "Меню отладки Эльфийской Судьбы"
+    elf_destiny_debug_menu.01.title:0 "Меню отладки Эльфийской судьбы"
     elf_destiny_debug_menu.01.desc:0 "Вы же не собираетесь использовать это для читов... #EMP #difficulty_hard не так ли#!#!?"
     elf_destiny_debug_menu.01.storyline:0 "Пропуски сюжета"
     elf_destiny_debug_menu.01.artifacts:0 "Создать артефакты"
 
-    elf_destiny_debug_menu.011.title:0 "Меню отладки Эльфийской Судьбы - Пропуски сюжета"
+    elf_destiny_debug_menu.011.title:0 "Меню отладки Эльфийской судьбы - Пропуски сюжета"
     elf_destiny_debug_menu.011.desc:0 "Пропустить разделы сюжета"
     elf_destiny_debug_menu.011.skip_first_expedition:0 "Завершить первую экспедицию"
     elf_destiny_debug_menu.011.visited_by_aelurans:0 "Посещены Аэруланами"
-    elf_destiny_debug_menu.011.complete_portal:0 "Восстановить Великий Портал"
+    elf_destiny_debug_menu.011.complete_portal:0 "Восстановить Великий портал"
     elf_destiny_debug_menu.011.back:0 "<--- Назад"
     elf_destiny_debug_menu.011.done:0 "Готово"
 
-    elf_destiny_debug_menu.1110.title:0 "Меню отладки Эльфийской Судьбы - Пропуски сюжета - Первая экспедиция"
-    elf_destiny_debug_menu.1110.desc:0 "Где была найдена Печать Владыки Королевства?"
+    elf_destiny_debug_menu.1110.title:0 "Меню отладки Эльфийской судьбы - Пропуски сюжета - Первая экспедиция"
+    elf_destiny_debug_menu.1110.desc:0 "Где была найдена печать владыки королевства?"
     elf_destiny_debug_menu.1110.b_bellinzona:0 "[GetTitleByKey('b_bellinzona').GetName]"
     elf_destiny_debug_menu.1110.b_intarta:0 "[GetTitleByKey('b_intarta').GetName]"
     elf_destiny_debug_menu.1110.b_simbiling:0 "[GetTitleByKey('b_simbiling').GetName]"
@@ -39,7 +39,7 @@
     elf_destiny_debug_menu.1110.b_kasriskari:0 "[GetTitleByKey('b_kasriskari').GetName]"
     elf_destiny_debug_menu.1110.b_northri_gudbrandsdali:0 "[GetTitleByKey('b_northri_gudbrandsdali').GetName]"
 
-    elf_destiny_debug_menu.1111.title:0 "Меню отладки Эльфийской Судьбы - Пропуски сюжета - Первая экспедиция"
+    elf_destiny_debug_menu.1111.title:0 "Меню отладки Эльфийской судьбы - Пропуски сюжета - Первая экспедиция"
     elf_destiny_debug_menu.1111.desc:0 "Когда вы нашли Печать, кто был превращён в эльфа?"
     elf_destiny_debug_menu.1111.just_me:0 "Только я"
     elf_destiny_debug_menu.1111.me_and_julia:0 "Джулия и я"
@@ -47,19 +47,19 @@
     elf_destiny_debug_menu.1111.noone:0 "Никто не превращён"
 
 
-    elf_destiny_debug_menu.1112.title:0 "Меню отладки Эльфийской Судьбы - Пропуски сюжета - Первая экспедиция"
+    elf_destiny_debug_menu.1112.title:0 "Меню отладки Эльфийской судьбы - Пропуски сюжета - Первая экспедиция"
     elf_destiny_debug_menu.1112.desc:0 "Вы приняли эльфийскую культуру или изменили свою существующую культуру?"
     elf_destiny_debug_menu.1112.take_culture:0 "Я принял эльфийскую культуру"
     elf_destiny_debug_menu.1112.modify_existing_culture:0 "Я изменил [ROOT.Char.GetCulture.GetName] вместо этого"
     elf_destiny_debug_menu.1112.skip_culture_change:0 "Пропустить изменения культуры"
 
-    elf_destiny_debug_menu.2111.title:0 "Меню отладки Эльфийской Судьбы - Пропуски сюжета - Посещение Божественной Искрой"
+    elf_destiny_debug_menu.2111.title:0 "Меню отладки Эльфийской судьбы - Пропуски сюжета - Посещение Божественной Искрой"
     elf_destiny_debug_menu.2111.desc:0 "Когда вас посетила во сне Божественная Искра, какую традицию вы выбрали?"
     elf_destiny_debug_menu.2111.open_hearted:0 "[GetCultureTradition('tradition_open_hearted').GetName]"
     elf_destiny_debug_menu.2111.elf_superiority:0 "[GetCultureTradition('tradition_elf_superiority').GetName]"
     elf_destiny_debug_menu.2111.skip_choice:0 "Пропустить выбор"
 
-    elf_destiny_debug_menu.2112.title:0 "Меню отладки Эльфийской Судьбы - Пропуски сюжета - Посещение Аэруланами"
+    elf_destiny_debug_menu.2112.title:0 "Меню отладки Эльфийской судьбы - Пропуски сюжета - Посещение Аэруланами"
     elf_destiny_debug_menu.2112.desc:0 "Когда Аэруланы посетили вас для экспозиции, вы перешли в веру Аэрулан?"
     elf_destiny_debug_menu.2112.take_religion:0 "Принять веру Аэрулан"
     elf_destiny_debug_menu.2112.refuse_religion:0 "Сохранить старую веру"
@@ -78,7 +78,7 @@
 
     # Character Menu =====================
 
-    elf_destiny_debug_menu.02.title:0 "Меню отладки персонажа Эльфийской Судьбы"
+    elf_destiny_debug_menu.02.title:0 "Меню отладки персонажа Эльфийской судьбы"
     elf_destiny_debug_menu.02.desc:0 "Вы же не собираетесь использовать это для читов... #EMP #difficulty_hard не так ли#!#!?"
     elf_destiny_debug_menu.02.race_options:0 "Изменить расу персонажа"
     elf_destiny_debug_menu.02.traits:0 "Изменить черты персонажа"

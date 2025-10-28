@@ -1,6 +1,0 @@
-﻿l_russian:
- rule_urf_sapience_presence:0 "#bold #P (URF) #!#! Присутствие Разумности"
- setting_urf_sapience_presence_enabled:0 "Включено"
- setting_urf_sapience_presence_enabled_desc:0 "Включить функции Разумности, присутствующие в Unified Race Framework"
- setting_urf_sapience_presence_disabled:0 "Отключено - Рекомендуется Elf Destiny"
- setting_urf_sapience_presence_disabled_desc:0 "Отключить функции Разумности, присутствующие в Unified Race Framework"

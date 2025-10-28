@@ -1,5 +1,0 @@
-﻿l_russian:
-  #
- drained_beauty:0 "Украл(а) мою красоту"
- drained_beauty_desc:0 "[TARGET_CHARACTER.GetShortUIName|U] украл(а) мою красоту с помощью тёмной магии."
- drained_beauty_corresponding:0 "Я истощил(а) красоту [CHARACTER.GetShortUINamePossessive|U]."

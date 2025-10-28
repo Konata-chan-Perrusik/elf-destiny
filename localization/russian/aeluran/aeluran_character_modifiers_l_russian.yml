@@ -1,7 +1,0 @@
-﻿l_russian:
-    dutiful_to_the_aelurans_modifier:0 "Преданный Аэруланам"
-    dutiful_to_the_aelurans_modifier_desc:0 "Я известен среди эльфов как лорд, проявляющий должное уважение и почтение к Ордену Аэрулан.\n\n#medium Уважение Аэрулан: @aeluran_order_1_icon! #P +[EmptyScope.ScriptValue('dutiful_to_aelurans_modifier_bonus')|2]#!/месяц#!"
-
-    on_official_aeluran_business:0 "По официальным делам Аэрулан"
-
-    donated_title_to_order:0 "Пожертвовал титул Ордену Аэрулан"

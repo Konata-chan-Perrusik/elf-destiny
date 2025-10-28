@@ -1,8 +1,0 @@
-﻿l_russian:
- REQUIRES_COVEN_OF_SEVEN:0 "Требуется [Concept('doctrine', 'доктрина')|E] Ковен Семи"
- REQUIRES_FEMALE_DOMINATED:0 "Требуется [Concept('doctrine', 'доктрина')|E] Женское доминирование"
- REQUIRES_FEMALE_ONLY_CLERICAL_GENDER:0 "Требуется [Concept('doctrine', 'доктрина')|E] Только женский духовный пол"
- MARRY_DIFFERENT_FAITH_DIVINE_ENDEARMENT_REASON:0 "Божественная привязанность - Хотя [recipient.GetShortUINamePossessive] [Concept('faith', 'вера')|E] отличается от вашей, у них есть почти духовный инстинкт принимать союзы с вашей верой: $VALUE|+0$"
-
- deference_of_the_aelurans:0 "Покровительство Аэлуран"
- deference_of_the_aelurans_desc:0 "Сёстры Аэлуран доверили вам, как Владыке, возможность преобразовать Орден, чтобы лучше соответствовать новому Эльфийскому Веку"

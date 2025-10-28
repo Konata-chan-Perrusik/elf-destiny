@@ -1,0 +1,30 @@
+﻿l_russian:
+ valar_vana:0 "Вала Красоты и Плодородия"
+ valar_tulkas_astaldo:0 "Вала Войны и Соперничества"
+
+ nick_ryumplstilkin:0 "Рюмпльштильскин"
+ nick_ryumplstilkin_desc:1 "Хотя происхождение этого прозвища неизвестно, достоверно то, что какую бы сделку ни заключали с [CharYouHerHim(CHARACTER)], Эйман всегда остаётся в выигрыше и обычно богатеет."
+
+ nick_the_golden_queen:0 "Золотая Королева"
+ nick_the_golden_queen_desc:1 "Рождённая в гордом и древнем роду, стремление [CharYourHerHis(CHARACTER)] вернуть как престиж, так и богатство своей крови заставило других называть [CharYouHerHim(CHARACTER)] этим именем."
+
+ nick_the_silver_dragon:0 "Серебряный Дракон"
+ nick_the_silver_dragon_desc:1 "Прозванный 'Серебряным' за [CharYourHerHis(CHARACTER)] волосы и 'Драконом' за [CharYourHerHis(CHARACTER)] присутствие, [CHARACTER.GetShortUINameNoTooltipNoFormat] одновременно очарователен при дворе и внушителен на поле боя."
+
+ nick_the_mad_mage:0 "Безумный Маг"
+ nick_the_mad_mage_desc:1 "Люди ходят вокруг [CHARACTER.GetShortUINameNoTooltipNoFormat] по струнке — возможно, справедливо, а возможно и нет, но зачем рисковать и оскорблять безум[CHARACTER.GetWomanMan]?"
+
+ nick_the_enchantress:0 "Чародейка"
+ nick_the_enchantress_desc:1 "С [CharYourHerHis(CHARACTER)] серебряными волосами и пленительной ауроой, [CharYourHerHis(CHARACTER)] взгляд пленяет всех, кто встречается с [CharYourHerHis(CHARACTER)], а [CharYourHerHis(CHARACTER)] обаяние и тонкая магия позволяют [CHARACTER.GetShortUINameNoTooltipNoFormat] манипулировать даже самыми могущественными правителями."
+
+ nick_the_black_dragon:0 "Чёрный Дракон"
+ nick_the_black_dragon_desc:1 "Прозванный 'Чёрным' как изгнанный бастард [CharYourHerHis(CHARACTER)] дома и 'Драконом' за [CharYourHerHis(CHARACTER)] величественное и грозное присутствие, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] полон решимости отомстить [CharYourHerHis(CHARACTER)] соперникам и уничтожить тех, кто встанет на пути." 
+ 
+ nick_the_druid:0 "Друид"
+ nick_the_druid_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U], происходящий из таинственного рода необычной силы, [CharAreIs(CHARACTER)] известен исцелением и яростной защитой лесов. [CHARACTER.GetShortUINamePossessive|U] непоколебимая связь с природой и скрытая сила принесли [CHARACTER.GetShortUINameNoTooltipNoFormat] прозвище '[CHARACTER.GetNicknameNoTooltip]'."
+
+ nick_wolfslayer:0 "Волкобой"
+ nick_wolfslayer_desc:1 "[CHARACTER.GetFirstNameOrMe|U] убил ужасного лютоволка в бою."
+
+ nick_the_kraken:0 "Кракен Запада"
+ nick_the_kraken_desc:1 "Говорят, что [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] обещанным Принцем дома Лормелис, рождённым в день великого циклона."

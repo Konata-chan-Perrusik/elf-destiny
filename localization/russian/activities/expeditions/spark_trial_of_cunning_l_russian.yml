@@ -1,0 +1,54 @@
+﻿l_english:
+  # Trial of cunning
+  expedition.00512.title:0 "Испытание хитрости"
+  expedition.00512.desc:0 "Войдя в величественный зал, вы замечаете прямо напротив себя статую из прекрасного белого мрамора. Она изображает прекрасную эльфийскую деву, наблюдающую за тем, что похоже на игровую доску. Вы замечаете резные изображения различных фигур, встроенные в плитки; похоже, вам нужно сыграть в какую-то игру, чтобы пройти это испытание. \nКогда вы делаете шаг вперёд, внезапное движение девы заставляет вас отпрянуть. Она одаривает вас милой улыбкой, которая передаёт ясное сообщение; #warning Ваш ход#! \n\n"
+
+  expedition.01512.desc:0 "#T Испытание Хитрости#!\n$EFFECT_LIST_BULLET$ Победителем испытания становится тот, кто выиграет 4 из 7 раундов.\n$EFFECT_LIST_BULLET$ Фигуры более высокого ранга бьют фигуры более низкого ранга, за исключением того, что #bold Крестьянин#! бьёт #bold Короля#!.\n$EFFECT_LIST_BULLET$ Ваш советник может попытаться угадать следующий ход мраморной девы по её языку тела, #difficulty_hard но он может ошибаться!#! Чем выше навык интриг вашего советника @skill_intrigue_icon!#, тем больше вероятность, что его догадка будет верной!\n\n"
+
+  expedition.00512.intrigue_check:0 "#T Искатель приключений с высшей интригой#! = [cunning_advisor.GetFullName]\n#bold Значение = #! @skill_intrigue_icon!#V [cunning_advisor.GetSkill( 'intrigue' )]#! | #bold Рейтинг = #!"
+  expedition.00512.intrigue_check.rating.best:0 "#D Мастер #!"
+  expedition.00512.intrigue_check.rating.good:0 "#P Мудрый #!"
+  expedition.00512.intrigue_check.rating.mid:0 "#P Средний #!"
+  expedition.00512.intrigue_check.rating.low:0 "#N Плохой #!"
+  expedition.00512.intrigue_check.rating.lowest:0 "#N Глупец #!"
+
+  expedition.00512.advisor_advice:0 "\n\n#bold [cunning_advisor.GetFullName] = #! #EMP «Мой [ROOT.Char.GetLadyLord], по её выражению лица ясно, что она выберет [SCOPE.GetFlagName('cunning_advisor_pick')]»#!"
+
+  expedition.00512.choice_tooltip:0 "Дева выберет фигуру, и победитель раунда будет определён."
+
+  expedition.game_score:0 "Выбор игрока - [SCOPE.GetFlagName('player_choice_name')] | Выбор ИИ - [SCOPE.GetFlagName('ai_choice_name')]  \n\nСчёт игрока - [ROOT.Var('player_score').GetValue] | Счёт ИИ - [ROOT.Var('ai_score').GetValue]\n\n Варианты игрока..."
+
+  expedition.00512.chosen_pieces:0 "Ваш выбор - [SCOPE.GetFlagName('player_choice_name')] | Выбор противника - [SCOPE.GetFlagName('ai_choice_name')]"
+  expedition.00512.current_score:0 " | #bold Вы#! = #bold [ROOT.Var('player_score').GetValue]#! / #bold Дева#! = #bold [ROOT.Var('ai_score').GetValue]#!"
+  expedition.00512.remaining_ai_pieces:0 "\n#T Оставшиеся фигуры Девы#!"
+  expedition.00512.king:0 "\n$BULLET_WITH_TAB$Король"
+  expedition.00512.queen:0 "\n$BULLET_WITH_TAB$Королева"
+  expedition.00512.priestess:0 "\n$BULLET_WITH_TAB$Жрица"
+  expedition.00512.noble:0 "\n$BULLET_WITH_TAB$Дворянин"
+  expedition.00512.knight:0 "\n$BULLET_WITH_TAB$Рыцарь"
+  expedition.00512.bandit:0 "\n$BULLET_WITH_TAB$Бандит"
+  expedition.00512.peasant:0 "\n$BULLET_WITH_TAB$Крестьянин"
+
+  expedition.005121.title:0 "Испытание Хитрости - Результат раунда"
+  expedition.005121.tie:0 "\n#bold Ничья в раунде#!"
+  expedition.005121.player_won:0 "\n#P Вы выиграли этот раунд!#!"
+  expedition.005121.ai_won:0 "\n#N Ваш противник выиграл этот раунд...#!"
+  expedition.005121.error:0 "что-то пошло не так ;( \n\n $expedition.game_score$"
+
+  expedition.00512.rules:0 "#flatulence Как играть?#!"
+  expedition.00512.playKing:0 "Играть Королём"
+  expedition.00512.playQueen:0 "Играть Королевой"
+  expedition.00512.playPriestess:0 "Играть Жрицей"
+  expedition.00512.playNoble:0 "Играть Дворянином"
+  expedition.00512.playKnight:0 "Играть Рыцарем"
+  expedition.00512.playBandit:0 "Играть Бандитом"
+  expedition.00512.playPeasant:0 "Играть Крестьянином"
+
+  expedition.005122.title:0 "Испытание Хитрости - Победа!"
+  expedition.005122.desc:0 "Вы прошли Испытание Хитрости! Большая каменная дверь за девой начинает со скрипом открываться, открывая другое помещение за ней."
+  
+  expedition.005122.ok:0 "Ууррааа!"
+
+  expedition.005123.title:0 "Испытание Хитрости - Провал!"
+  expedition.005123.desc:0 "Вы провалили Испытание Хитрости! Помещение за дверью остаётся запечатанным."
+  expedition.005123.ok:0 "Наверняка она сжульничала!"

@@ -1,0 +1,88 @@
+﻿l_russian:
+ # Feyswood
+ d_martyuba:0 "Фейсвуд"
+ d_martyuba_adj:0 "Фейский"
+ 
+ c_martyuba:0 "Земля Духов"
+ c_martyuba_adj:0 "Духов"
+ b_urzen:0 "Урзалит"
+ b_vetluga:0 "Велутиэн"
+ b_vokhma:0 "Вохэлин"
+ 
+ c_cykma:0 "Дипвуд"
+ c_cykma_adj:0 "Дипвудский"
+ b_cykma:0 "Кикмир"
+ b_semenov:0 "Семарит"
+ b_luch:0 "Луханор"
+
+ d_kazan:0 "Силваэль"
+ d_kazan_adj:0 "Силваэленский"
+ 
+ c_kazan:0 "Эларион"
+ c_kazan_adj:0 "Эларийский"
+ b_kazan:0 "Эларион"
+ b_kashan_VB:0 "Вэлтир"
+ b_otarka:0 "Отарэ"
+ 
+ c_mamadych:0 "Ломелинде"
+ c_mamadych_adj:0 "Ломелинский"
+ b_mamadych:0 "Ломелинде"
+ b_arsk:0 "Арваэль"
+ 
+ c_yoshkar-ola:0 "Митарил"
+ c_yoshkar-ola_adj:0 "Митарийский"
+ b_yoshkar-ola:0 "Митарил"
+ b_arda:0 "Ардаэль"
+ b_tsarevokokchaisk:0 "Талнарун"
+ 
+ c_mari-turek:0 "Тиндолэ"
+ c_mari-turek_adj:0 "Тиндали"
+ b_mari-turek:0 "Тиндолэ"
+ b_volzhsk:0 "Воленар"
+ 
+ c_elabuga:0 "Илтариэн"
+ c_elabuga_adj:0 "Илтарийский"
+ b_elabuga:0 "Илтариэн"
+ b_izhevsk:0 "Изэланор"
+ b_voloz:0 "Велунор"
+ b_mozhga:0 "Можэлин"
+ 
+ # Special
+ d_high_matriarch:0 "Престол Верховного Матриарха"
+ d_high_matriarch_adj:0 "Верховный Матриархат"
+ 
+ d_bargujin_tukum:0 "Высокие Холмы"
+ d_bargujin_tukum_adj:0 "Высокохолмский"
+ 
+ c_chuya:0 "Северный Лес"
+ c_karabaigal:0 "Королевский Гребень"
+ c_vitim:0 "Ладонь Великана"
+ c_kotera:0 "Верхний Предел"
+ 
+ c_malta:0 "Око Змея"
+ 
+ d_cyprus:0 "Логово Змея"
+ c_nicosia:0 "Логово Змея"
+ c_famagusta:0 "Белая Гавань"
+ 
+ d_kazym:0 "Хрустальные Луга"
+ c_kazym:0 "Звездопад"
+ c_sosva:0 "Тихий Лес"
+ c_koda:0 "Северный Покой"
+ 
+ c_ailech:0 "Эмайн Маха"
+ c_pagania:0 "Зелёные Берега"
+ 
+ c_kevrola:0 "Альвхейм"
+ 
+ d_laamp_belanor: "Сборище Бастардов"
+ d_laamp_belanor_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ 
+ d_laamp_aubrey: "Шествие Ведьм"
+ d_laamp_aubrey_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ 
+ d_laamp_heldrin: "Охотники за Силой"
+ d_laamp_heldrin_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ 
+ d_laamp_myrddin:0 "Друид"
+ d_laamp_myrddin_article: "$DEFAULT_TITLE_NAME_ARTICLE$"

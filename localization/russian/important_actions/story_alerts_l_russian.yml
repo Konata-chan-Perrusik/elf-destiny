@@ -1,0 +1,11 @@
+﻿l_russian:
+  #
+ action_what_is_an_archeologist:0 "Кто такой археолог?"
+ action_what_is_an_archeologist_label:0 "Доступно новое решение"
+ action_what_is_an_archeologist_desc:2 "Таинственная женщина прибыла в ваше владение, желая аудиенции"
+ action_what_is_an_archeologist_click:2 "#I Нажмите, чтобы поговорить с ней#!"
+
+ action_start_an_expedition:0 "Новая активность: Экспедиции"
+ action_start_an_expedition_label:0 "Новая активность"
+ action_start_an_expedition_desc:2 "Вы согласились помочь финансировать экспедицию Джулии Мелвуд к древним эльфийским руинам"
+ action_start_an_expedition_click:2 "#I Нажмите, чтобы начать экспедицию#!"

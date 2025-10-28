@@ -1,0 +1,5 @@
+﻿l_russian:
+  #
+  scheme_power_against_lover_add:0 "[Concept('scheme_power', 'Мощность интриг')|E] против ваших [Concept('lovers', 'любовников')|E]"
+  max_seduce_schemes_add:0 "Макс. [GetScheme('seduce').GetTypeName] [Concept('schemes', 'интриг')|E]"
+  seduce_scheme_resistance_add:0 "[GetScheme('seduce').GetTypeName] [Concept('scheme_resistance', 'сопротивление интригам')|E]"

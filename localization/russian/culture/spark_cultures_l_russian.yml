@@ -1,0 +1,38 @@
+﻿l_russian:
+  # ========= CULTURES =========
+
+ culture_elf:0 "Эльфийская"
+ culture_elf_prefix:0 "Эльфийская"
+ culture_elf_collective_noun:0 "Фейская"
+ 
+ elf_culture_gwynthorn:0 "Туата Де Дананн"
+ elf_culture_gwynthorn_prefix:0 "Туатанская"
+ elf_culture_gwynthorn_collective_noun:0 "Туаты"
+ 
+ elf_culture_daelurin:0 "Альвы"
+ elf_culture_daelurin_prefix:0 "Альвская"
+ elf_culture_daelurin_collective_noun:0 "Альвы"
+ 
+ elf_culture_serelion:0 "Ромавиры"
+ elf_culture_serelion_prefix:0 "Ромавирская"
+ elf_culture_serelion_collective_noun:0 "Ромавиры"
+ 
+ elf_culture_thundarael:0 "Астрионы"
+ elf_culture_thundarael_prefix:0 "Астрионская"
+ elf_culture_thundarael_collective_noun:0 "Астрионы"
+ 
+ elf_culture_valerith:0 "Лесные Эльфы"
+ elf_culture_valerith_prefix:0 "Лесная"
+ elf_culture_valerith_collective_noun:0 "Лесные"
+ 
+ elf_culture_lormelis:0 "Атлареты"
+ elf_culture_lormelis_prefix:0 "Атларетская"
+ elf_culture_lormelis_collective_noun:0 "Атлареты"
+ 
+ heritage_elf_name:0 "Эльф"
+ heritage_elf_collective_noun:0 "Фейская"
+ 
+ elf_group_coa_gfx: "Эльфийская"
+
+
+  

@@ -1,0 +1,16 @@
+﻿l_russian:
+  #
+  the_rut_modifier:0 "Гон"
+
+  superior_elf_count_modifier:0 "Эльф-граф, превосходящий людей"
+  superior_elf_duke_modifier:0 "Эльф-герцог, превосходящий людей"
+  superior_elf_king_modifier:0 "Эльф-король, превосходящий людей"
+  superior_elf_emperor_modifier:0 "Эльф-император, превосходящий людей"
+
+  chieftain_visionary_modifier:0 "Видящий Вождь"
+  chieftain_visionary_modifier_desc:0 "Этот персонаж привёл своё владение к [Concept('advanced_tribal', 'продвинутой племенной')|E] форме [Concept('government', 'правления')|E]. Все будут помнить Вождя, чьё видение позволило им обрести истинную гармонию с природой!"
+
+  increased_supplies_modifier:0 "Реквизированные ремесленники"
+  undermined_supplies_modifier:0 "Подорванные поставки"
+
+  focused_knight_training:0 "Интенсивная подготовка рыцарей"

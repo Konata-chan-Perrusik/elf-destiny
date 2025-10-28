@@ -1,0 +1,46 @@
+﻿l_russian:
+  aeluran_diarchy.100.title:0 "С Престола Верховной Матриарх"
+  aeluran_diarchy.100.desc:0 "[ROOT.Char.GetFullName]\n\nМы назначили новую Красную Сестру в качестве вашего советника и представителя Ордена при вашем дворе.\n\n"
+
+  aeluran_diarchy.100.desc.sent_from_deepwood:0 "[aeluran_sister_advisor.GetName] — женщина великого таланта, недавно возведённая в ранг Сестры. Она будет служить вам хорошо. Она отправится из Дипвуда и немедленно начнёт путешествие в ваши владения"
+
+  aeluran_diarchy.100.desc.vassal:0 "Ваша вассалка [aeluran_sister_advisor.GetName] — Сестра великой мудрости. Она будет верно служить вашим владениям."
+  aeluran_diarchy.100.desc.courtier:0 "Сестра вашего двора [aeluran_sister_advisor.GetName] показывает большие promise и будет хорошо служить вашим владениям."
+  aeluran_diarchy.100.ok:0 "Посмотрим..."
+
+  new_aeluran_advisor_is_on_the_way:0 "Ваш новый советник Аэлуран, [aeluran_sister_advisor.GetName], направляется в ваши владения из Дипвуда"
+  new_aeluran_advisor_is_on_the_way_tt:0 "Ваш новый советник Аэлуран, [aeluran_sister_advisor.GetName], направляется в ваши владения из Дипвуда"
+
+  aeluran_diarchy.101.title:0 "Прибытие Аэлуран"
+  aeluran_diarchy.101.desc:0 "Сегодня утром в ваших владениях поднялась суматоха, и, войдя в советную палату, вы подтверждаете свои подозрения. Перед вами стоит женщина, одетая в красное. Похоже, ваш новый [Concept('aeluran_advisor', 'советник Аэлуран')|E] прибыл.\n\n«Мой [ROOT.Char.GetLadyLord|U]», — говорит она, — «Я — Сестра [aeluran_sister_advisor.GetFirstNameNoTooltip]. Меня направила сюда Верховная Матриарх, чтобы служить вашим новым советником и голосом Ордена Аэлуран. За последние недели я многое узнала о вас и вашей семье. Уверена, что с должной направляющей рукой мы вместе построим здесь светлое будущее для всех эльфов»."
+  aeluran_diarchy.101.ok:0 "Добро пожаловать, Сестра [aeluran_sister_advisor.GetFirstNameNoTooltip]."
+
+  aeluran_diarchy.1011.title:0 "Советник Назначен"
+  aeluran_diarchy.1011.desc:0 "Вскоре после получения известия от Ордена Аэлуран о назначении вашего нового [Concept('aeluran_advisor', 'советника Аэлуран')|E] вас лично приветствует [aeluran_sister_advisor.GetName].\n\n«Мой [ROOT.Char.GetLadyLord|U]», — говорит она, — «Я уже была слугой ваших владений, но для меня большая честь быть избранной представлять мой орден рядом с вами. С несколькими #EMP предложениями#! я уверена, что мы сможем навести здесь должный порядок и создать процветающее будущее для всех эльфов»."
+  aeluran_diarchy.1011.ok:0 "С нетерпением жду этого, Сестра [aeluran_sister_advisor.GetFirstNameNoTooltip]."
+
+  aeluran_diarchy.103.title:0 "Земельный Вопрос"
+  aeluran_diarchy.103.desc:0 "Ваш [Concept('aeluran_advisor', 'советник Аэлуран')|E], Сестра [aeluran_sister_advisor.GetFirstName], разыскивает вас, чтобы обсудить важный вопрос.\n\n«Мой [ROOT.Char.GetLadyLord]», — говорит она, — «Мы ещё не обсудили, где мой Орден разместит свою штаб-квартиру в ваших владениях. Как вам известно, от сюзерена ожидается, что он предоставит своему [Concept('aeluran_advisor', 'советнику Аэлуран')|E] землю для постройки храма и управления ею в качестве [Concept('aeluran_weavers_government', 'вассала Ордена Аэлуран')|E] [Concept('vassal', 'вассала')|E].\n\nВы можете либо предоставить мне существующий храм, либо мой орден готов спонсировать строительство нового храма в качестве дара вашему народу в честь принятия Сестринства вашими владениями»."
+  aeluran_diarchy.103.church_1:0 "Примите [church_barony_1.GetName] как свой дом."
+  aeluran_diarchy.103.church_2:0 "Я подарю ордену [church_barony_2.GetName]."
+  aeluran_diarchy.103.church_3:0 "[church_barony_3.GetName] — подходящий храм"
+  aeluran_diarchy.103.undeveloped_holding:0 "Орден может построить новый храм в [undeveloped_holding.GetName]"
+  aeluran_diarchy.103.will_assign:0 "Мне нужно время, чтобы решить, каким титулом поступиться"
+
+  aeluran_diarchy.1031.title:0 "Земельный Вопрос - Храм Построен"
+  aeluran_diarchy.1031.desc:0 "Ваш [Concept('aeluran_advisor', 'советник Аэлуран')|E] Сестра [aeluran_sister_advisor.GetFirstName] желает переговорить.\n\n«Мой [ROOT.Char.GetLadyLord], я рада сообщить, что строительство нового храма завершено. Я немедленно займу резиденцию. Новая цитадель, из которой будет распространяться свет Божественной Искры»."
+  aeluran_diarchy.1031.desc.no_longer_owned:0 "Ваш [Concept('aeluran_advisor', 'советник Аэлуран')|E] Сестра [aeluran_sister_advisor.GetFirstName] желает переговорить.\n\n«Мой [ROOT.Char.GetLadyLord], строительство нового храма завершено; но, как вам известно, он более не является частью вашего домена. Мне всё ещё потребуется храмовое владение для моего ордена»."
+  aeluran_diarchy.1031.ok:0 "Как скажете, Сестра [aeluran_sister_advisor.GetFirstName]"
+  aeluran_diarchy.1031.no_longer_owned:0 "Приношу извинения за задержку, Сестра [aeluran_sister_advisor.GetFirstName]"
+
+  aeluran_diarchy.1032.title:0 "Земельный Вопрос - Отложено"
+  aeluran_diarchy.1032.desc:0 "«Хорошо, мой [ROOT.Char.GetLadyLord]. Не затягивайте слишком долго, мой орден не будет терпеть такое положение вечно. Если вопрос не будет решён в течение нескольких лет, он будет поднят снова»."
+  aeluran_diarchy.1032.ok:0 "Как скажете, Сестра [aeluran_sister_advisor.GetFirstName]"
+
+  aeluran_diarchy.1033.title:0 "Земельный Вопрос"
+  aeluran_diarchy.1033.desc:0 "Ваш [Concept('aeluran_advisor', 'советник Аэлуран')|E] Сестра [aeluran_sister_advisor.GetFirstName] приближается. «Мой [ROOT.Char.GetLadyLord], мой орден был терпелив, но я напоминаю вам, что иметь безземельную Красную Сестру крайне неподобающе. Вы нашли ли храм, который я смогу сделать своим владением?»"
+  aeluran_diarchy.1033.church_1:0 "Примите [church_barony_1.GetName] как свой дом."
+  aeluran_diarchy.1033.church_2:0 "Я подарю ордену [church_barony_2.GetName]."
+  aeluran_diarchy.1033.church_3:0 "[church_barony_3.GetName] — подходящий храм"
+  aeluran_diarchy.1033.undeveloped_holding:0 "Орден может построить новый храм в [undeveloped_holding.GetName]"
+  aeluran_diarchy.1033.will_assign:0 "Мне всё ещё нужно больше времени, Сестра [aeluran_sister_advisor.GetFirstName]"

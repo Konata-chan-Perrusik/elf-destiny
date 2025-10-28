@@ -1,0 +1,62 @@
+﻿l_russian:
+  # Feyswood
+  aeluran_weavers_government:0 "Орден Аэлуран"
+  aeluran_weavers_government_adjective:0 "Ордена Аэлуран"
+  aeluran_weavers_government_with_icon:0 "@aeluran_experiment_icon! Орден Аэлуран"
+
+  aeluran_weavers_government_desc:0 "Земли, управляемые теократически и находящиеся под прямым контролем сестры Ордена Аэлуран."
+
+  aeluran_weavers_vassal:0 "Орден Аэлуран"
+  aeluran_weavers_vassal_desc:0 "$game_concept_aeluran_weavers_government_desc$"
+
+
+  advanced_tribal_government:0 "Возвышенное Племя"
+  advanced_tribal_government_adjective:0 "Возвышенного Племени"
+  advanced_tribal_government_with_icon: "@government_type_feudal! $advanced_tribal_government$"
+  advanced_tribal_government_desc:0 "\nЭто народ земли, обладающий всеми преимуществами феодальных обитателей замков, но без их заблудшего высокомерия.\n\nПравительства Возвышенных Племён:\n$EFFECT_LIST_BULLET$Имеют доступ к двум дополнительным уровням всех Племенных построек и могут создавать новые Племенные владения.\n$EFFECT_LIST_BULLET$Сохраняют способность совершать набеги на других.\n$EFFECT_LIST_BULLET$Получают некоторые преимущества, развитые феодальными обществами, такие как королевская власть, мощные законы престолонаследия и создание младших ветвей.\n$EFFECT_LIST_BULLET$Могут нанимать как [GetMaA('warband_ravagers').GetName], так и [GetMaA('warband_vanguard').GetName] в качестве [Concept('men_at_arms', 'профессиональных солдат')|E]."
+
+  advanced_tribal_government_opinion:0 "Мнение правителя [Concept('advanced_tribal_government', 'Возвышенного Племени')|E]"
+  advanced_tribal_government_levy_contribution_mult: "[Concept('advanced_tribal', 'Возвышенное Племя')|E] [Concept('vassal', 'вассал')|E] [Concept('levy', 'ополчение')|E] [Concept('modifier_contribution', 'модификатор вклада')|E]"
+
+  game_concept_advanced_tribal:0 "Возвышенное Племя"
+  game_concept_advanced_tribal_government:0 "Правительство Возвышенного Племени"
+  game_concept_advanced_tribal_desc:0 "Владения Возвышенных Племён обладают преимуществами как [Concept('tribal', 'племенных')|E], так и [Concept('feudal', 'феодальных')|E] правительств без их недостатков. В отличие от Племенных правительств, они не страдают от задержки [Concept('development', 'развития')|E] графств, могут продвигаться дальше Племенных эпох [Concept('innovations', 'инноваций')|E], могут строить новые [Concept('holdings', 'владения')|E], могут разблокировать дополнительные уровни всех племенных зданий и способны изменять свой [Concept('succession_law', 'закон престолонаследия')|E].\n\nОднако, в отличие от Феодальных правительств, они могут использовать [Concept('prestige', 'престиж')|E] вместо [Concept('gold', 'золота')|E] для строительства своих владений и найма [Concept('men_at_arms', 'профессиональных солдат')|E], а также имеют доступ к большему количеству [Concept('casus_belli', 'казус белли')|E] по сравнению с [Concept('feudal', 'феодальными')|E] владениями."
+
+  game_concept_aeluran_weavers_government:0 "$aeluran_weavers_government$"
+  game_concept_aeluran_weavers_government_desc:0 "$aeluran_weavers_government_desc$"
+
+  aeluran_government_taxes:2 "[GetGovernment( 'aeluran_weavers_government' ).GetNameNoTooltip] [Concept('taxes', 'налоги')|U]"
+  aeluran_tax_exempt:0 "Освобождение от [Concept('tax', 'налога')|E]"
+  aeluran_tax_exempt_short:0 "Освобождение"
+  aeluran_tax_low:0 "Низкие $game_concept_taxes$"
+  aeluran_tax_low_short:0 "Низкие"
+  aeluran_tax_normal:0 "Обычные $game_concept_taxes$"
+  aeluran_tax_normal_short:0 "Обычные"
+  aeluran_tax_high:0 "Высокие $game_concept_taxes$"
+  aeluran_tax_high_short:0 "Высокие"
+  aeluran_tax_extortionate:0 "Грабительские $game_concept_taxes$"
+  aeluran_tax_extortionate_short:0 "Грабительские"
+
+  aeluran_government_levies:2 "[GetGovernment( 'aeluran_weavers_government' ).GetNameNoTooltip] [Concept('levies', 'ополчение')|U]"
+  aeluran_levies_exempt:0 "Без вклада"
+  aeluran_levies_exempt_short:0 "Нет"
+  aeluran_levies_low:0 "Низкий вклад $game_concept_levy$"
+  aeluran_levies_low_short:0 "Низкий"
+  aeluran_levies_normal:0 "Обычный вклад $game_concept_levy$"
+  aeluran_levies_normal_short:0 "Обычный"
+  aeluran_levies_high:0 "Высокий вклад $game_concept_levy$"
+  aeluran_levies_high_short:0 "Высокий"
+  aeluran_levies_extortionate:0 "Массовый вклад $game_concept_levy$"
+  aeluran_levies_extortionate_short:0 "Массовый"
+
+  aeluran_government_magi:2 "Вклад [Concept('aeluran_magi_regiments', 'полков магов Аэлуран')|E]"
+  aeluran_magi_exempt:0 "Без вклада #N -100%#!"
+  aeluran_magi_exempt_short:0 "Нет"
+  aeluran_magi_low:0 "Низкий вклад магов #N -50%#!"
+  aeluran_magi_low_short:0 "Низкий"
+  aeluran_magi_normal:0 "Обычный вклад магов"
+  aeluran_magi_normal_short:0 "Обычный"
+  aeluran_magi_high:0 "Высокий вклад магов #P +50%#!"
+  aeluran_magi_high_short:0 "Высокий"
+  aeluran_magi_extortionate:0 "Массовый вклад магов #P +100%#!"
+  aeluran_magi_extortionate_short:0 "Массовый"

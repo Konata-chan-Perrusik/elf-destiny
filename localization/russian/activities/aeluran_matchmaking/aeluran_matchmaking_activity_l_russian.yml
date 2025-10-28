@@ -1,0 +1,311 @@
+﻿l_russian:
+  #aeluran_matchmaking
+  activity_aeluran_matchmaking:0 "Сватовство Аэрулан"
+  aeluran_matchmaking_phase_desc:0 "Знакомство с кандидатами"
+  activity_aeluran_matchmaking_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Сватовство Аэрулан"
+  activity_aeluran_matchmaking_desc:4 "Орден Аэрулан требует, чтобы эльфийские лорды находили подходящие браки. По обычаю им позволяют помогать в этом"
+  activity_aeluran_matchmaking_owner:0 "Красная Сестра"
+  
+
+  not_valid_matchmaking_location:0 "Это графство не является столицей вашего сюзерена."
+  activity_invite_rule_liege_and_liege_family:0 "Сюзерен и его семья"
+  activity_invite_rule_liege_and_liege_family_no_default:0 "$activity_invite_rule_liege_and_liege_family$"
+
+  activity_window_character_aeluran_adviser:0 "Сваха Аэрулан"
+  activity_window_character_match_left:0 "Невеста"
+  activity_window_character_match_right:0 "Жених"
+  activity_window_character_match_recipient_liege:0 "[host.liege.GetName]"
+
+  activity_aeluran_matchmaking_conclusion_desc:0 "[GetActivityType('activity_wedding').GetTextIcon] Пара составлена!"
+
+  ### EVENTS
+  aeluran_matchmaking.001.title:0 "Нужно составить пару"
+  aeluran_matchmaking.001.desc.lord:0 "Вы устали от настойчивых приставаний Аэрулан с предложением подчиниться их сватовству, но, возможно, вы были слишком поспешны, требуя прекратить просьбы вовсе.\n\nВы разыскиваете своего [Concept('aeluran_advisor', 'советника Аэрулан')|E] [aeluran_adviser.GetName], чтобы узнать, поможет ли [Concept('aeluran_order', 'Орден Аэрулан')|E] снова вашей семье найти подходящих эльфов, которых можно породнить с вашей [Concept('dynasty', 'династией')|E].\n\n«Вы были мудры, что пришли ко мне, мой [ROOT.Char.GetLadyLord], — говорит она, — мы оставим ваше прежнее упрямство. Мой орден возобновит наши усилия по сватовству. Дайте нам немного времени, и я сообщу вам, когда мои Сестры закончат отбор кандидатов в супруги»"
+  aeluran_matchmaking.001.desc.family:0 "Вы думаете, что [recipient.GetName] давно пора остепениться и выполнить [recipient.GetHerHis] долг по обеспечению будущего вашей [Concept('dynasty', 'династии')|E].\n\nВы разыскиваете своего [Concept('aeluran_advisor', 'советника Аэрулан')|E] [aeluran_adviser.GetName], чтобы узнать, поможет ли [Concept('aeluran_order', 'Орден Аэрулан')|E] в этом деле.\n\n«Вы были мудры, что пришли ко мне с этим вопросом, мой [ROOT.Char.GetLadyLord], — говорит она, — Мой орден, конечно, поможет в этом деле. Мы найдем идеально подходящего супруга для [recipient.GetFirstName]. Дайте нам немного времени, и я сообщу вам, когда мои Сестры закончат отбор кандидатов»"
+  aeluran_matchmaking.001.ok:0 "Благодарю вас, Сестра [aeluran_adviser.GetFirstName]"
+  aeluran_matchmaking.001.nvm:0 "Вообще-то я передумал"
+
+  aeluran_matchmaking.101.title:0 "Род должен продолжаться"
+  aeluran_matchmaking.101.desc:0 "Ваше последнее заседание совета только что закончилось, но прежде чем вы успеваете направиться в залы, ваш советник [host.GetName] загоняет вас в угол в палате. \n\n«Мой [ROOT.Char.GetLadyLord], минутку вашего времени для более #italic sensitive#! matter.\n\n"
+
+  aeluran_matchmaking.101.desc.lord:0 "Я говорю о престолонаследии. Вам давно пора найти пару и укрепить свою кровную линию. Как вам известно, эльфийским лордам подобает обращаться за помощью к [Concept('aeluran_order', 'Ордену Аэрулан')|E] в столь важном решении.\n\nЯ связывалась с моими Сестрами из Ордена, и мы нашли несколько весьма многообещающих кандидатов. Пойдемте, давайте встретимся с вашими потенциальными женихами.\""
+
+  aeluran_matchmaking.101.desc.heir:0 "Ваш [Concept('heir', 'наследник')|E] [match_recipient.GetFirstName] остается неженатым и должен найти пару, чтобы укрепить вашу кровную линию. Как вам известно, эльфийским лордам подобает обращаться за помощью к [Concept('aeluran_order', 'Ордену Аэрулан')|E] в столь важном решении.\n\nЯ связывалась с моими Сестрами из Ордена, и мы нашли несколько весьма многообещающих кандидатов. Пойдемте, давайте встретимся с потенциальными женихами вашего [Concept('heir', 'наследника')|E].\""
+
+  aeluran_matchmaking.101.desc.fallback:0 "Я проконсультировалась с орденом, как вы просили, и мы подобрали подходящих кандидатов для [match_recipient.GetFirstName] здесь. Пойдемте, давайте встретимся с [match_recipient.GetHerHis] потенциальными парами.\""
+
+  aeluran_matchmaking.101.ok:0 "Как пожелаете, Леди [host.GetFirstName]."
+  aeluran_matchmaking.101.snooze:0 "Мне не нужны советы ордена в настоящее время."
+  aeluran_matchmaking.101.never_again:0 "Я один решаю судьбу моего рода, никогда больше не беспокойте меня этим."
+
+  aeluran_accepts_decision:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] #P принимает#! ваше решение"
+  aeluran_challenges_decision:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] #N оспаривает#! ваше решение"
+  matchmaking_postponed:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] не будет искать пару для вас или вашего [Concept('heir', 'наследника')|E] в течение 5 лет"
+  matchmaking_postponed_after_presented:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] не будет искать пару для вас или вашего [Concept('heir', 'наследника')|E] в течение 5 лет"
+  matchmaking_postponed_permanently:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] никогда не будет искать пару для вас или вашего [Concept('heir', 'наследника')|E]"
+
+  aeluran_matchmaking.1011.title:0 "Род должен продолжаться - Отказ оспорен"
+  aeluran_matchmaking.1011.desc:0 "С ясным взглядом и хмурым лицом [host.GetName] говорит: «Боюсь, я должна настоять, мой [ROOT.Char.GetLadyLord]. Это ваша обязанность как эльфийского лорда подчиниться...»\n\nПока [host.GetFirstName] продолжает говорить со все возрастающим тоном; вы чувствуете, как ее [Concept('spark_aura', 'Аура Искры')|E] давит на вас, пытаясь подавить и подчинить вашу собственную.\n\nЯсно, что простого отказа будет недостаточно. Вам придется победить [host.GetHerHim] в [Concept('battle_of_wills', 'Битве Воль')|E]"
+  aeluran_matchmaking.1011.learning:0 "Сопротивляться чистой волей."
+  aeluran_matchmaking.1011.intrigue_diplo:0 "Сопротивляться с помощью обаяния."
+
+  denied_aeluran_matchmaking_candidates:0 "Отклоненные кандидаты сватовства Аэрулан"
+  refused_aeluran_matchmaking:0 "Отказ от сватовства Аэрулан"
+
+  lord_defeats_advisor_matchmaking_battle_of_wills:0 "[host.GetName] принимает ваше решение отказаться от сватовства"
+  lord_loses_to_advisor_matchmaking_battle_of_wills:0 "[host.GetName] подавляет вашу волю и навязывает вам сватовство"
+
+  aeluran_matchmaking.1012.title:0 "Род должен продолжаться - Победа в Битве Воль"
+  aeluran_matchmaking.1012.desc:0 "С последним усилием ваша [Concept('spark_aura', 'Аура Искры')|E] охватывает ауру [host.GetNamePossessive], и ее воля наконец ломается. Вы видите, как жар покидает [host.GetHerHis] глаза, и [host.GetSheHe] робко говорит: «Как скажете, мой [ROOT.Char.GetLadyLord], мы отложим этот вопрос на другой день»"
+  aeluran_matchmaking.1012.ok:0 "Воистину так"
+
+  aeluran_matchmaking.1013.title:0 "Род должен продолжаться - Поражение в Битве Воль"
+  aeluran_matchmaking.1013.desc:0 "Вы усердно боретесь, но как ни старайтесь, воля [host.GetNamePossessive] остается крепкой, как железо. Как будто это было неизбежностью, ваша [Concept('spark_aura', 'Аура Искры')|E] поглощается [host.GetFirstNamePossessive], и последние остатки вашего сопротивления угасают.\n\nС явной усмешкой на лице [host.GetFirstName] говорит: «Мой [ROOT.Char.GetLadyLord] сегодня не в себе. Отправляйтесь в свои покои вздремнуть, и мы встретимся снова через несколько дней для сватовства.»"
+  aeluran_matchmaking.1013.ok:0 "Д-Да, Сестра [host.GetFirstNameNoTooltip]"
+
+  aeluran_matchmaking.1014.title:0 "Род должен продолжаться"
+  aeluran_matchmaking.1014.desc.snooze:0 "«Очень хорошо, мой [ROOT.Char.GetLadyLord]. Орден даст вам еще пять лет, чтобы найти пару самостоятельно, но мы не можем откладывать дольше этого.»"
+  aeluran_matchmaking.1014.desc.permanent:0 "«Очень хорошо, мой [ROOT.Char.GetLadyLord]. [Concept('aeluran_order', 'Орден Аэрулан')|E] больше не будет настаивать на сватовстве для вас и вашей семьи. Ради блага эльфийских народов мы все же призываем вас делать это по своей воле»"
+  aeluran_matchmaking.1014.ok:0 "Наконец-то можно вздохнуть свободно"
+
+  aeluran_matchmaking.0021.title:0 "Обзор досье женихов"
+  aeluran_matchmaking.0021.desc:0 "\n#zero_value «Мой [ROOT.Char.GetLadyLord|U], благодарю за визит. Орден и я собрали коллекцию кандидатов, которых мы считаем#!"
+  aeluran_matchmaking.0021.desc.lord:0 "#zero_value подходящими для человека вашего положения. Пойдемте, давайте рассмотрим ваши варианты.»#!" 
+  aeluran_matchmaking.0021.desc.heir:0 "#zero_value подходящими для вашего [Concept('heir', 'наследника')|E]. Пойдемте, давайте рассмотрим их варианты.»#!"
+  aeluran_matchmaking.0021.desc.stats:0 "\n\n#tooltip_heading Качество женихов -#! [SCOPE.Custom('AeluranMatchmakingQualityDesc')]\n$EFFECT_LIST_BULLET$#positive_value +[SCOPE.ScriptValue('matchmaking_respect_bonus_value')]#! | #tooltip_subheading Уважение Аэрулан -#! [SCOPE.Custom('AeluranMatchmakingRespectScore')] #emphasis ([GetPlayer.MakeScope.ScriptValue('aeluran_respect_score_actual')|2+=]/месяц)#![SCOPE.Custom('AeluranMatchmakingGrantedHook')][SCOPE.Custom('AeluranMatchmakingGiftedCrystal')]\n\n#tooltip_heading Разрешенный выбор -#! [SCOPE.Custom('AeluranMatchmakingQuantityDescriptor')|0+]\n$EFFECT_LIST_BULLET$#positive_value +[SCOPE.ScriptValue('matchmaking_candidate_quantity')]#! | #tooltip_subheading Уровень контроля Аэрулан -#! [SCOPE.Custom('AeluranMatchmakingDominationScore')]"
+
+  matchmaking_favoritism:0 "Проявил фаворитизм в сватовстве"
+
+  matchmaking_candidate_quality_desc_1:0 "#strong_glow #attacker_color No Quality Bonus ([SCOPE.ScriptValue('matchmaking_candidate_quality')])#!#!"
+  matchmaking_candidate_quality_desc_2:0 "#strong_glow #color_red Minor Quality Bonus ([SCOPE.ScriptValue('matchmaking_candidate_quality')])#!#!"
+  matchmaking_candidate_quality_desc_3:0 "#strong_glow #color_yellow Decent Quality Bonus ([SCOPE.ScriptValue('matchmaking_candidate_quality')])#!#!"
+  matchmaking_candidate_quality_desc_4:0 "#strong_glow #color_green Good Quality Bonus ([SCOPE.ScriptValue('matchmaking_candidate_quality')])#!#!"
+  matchmaking_candidate_quality_desc_5:0 "#strong_glow #color_green Top Quality Bonus ([SCOPE.ScriptValue('matchmaking_candidate_quality')])#!#!"
+
+  gift_spark_crystal_to_the_aeluran_order:0 "Вы дарите свою [spark_crystal.GetName] ордену Аэрулан"
+
+  aeluran_matchmaking.0021.granted_hook:0 "\n$EFFECT_LIST_BULLET$#positive_value +1#! | #tooltip_subheading @weak_hook_icon! Granted A Hook#!"
+  aeluran_matchmaking.0021.gifted_crystal:0 "\n$EFFECT_LIST_BULLET$#positive_value +2#! | #tooltip_subheading @spark_crystal_icon! Gifted A Spark Crystal#!"
+
+  aeluran_matchmaking.0021.ok:0 "Пожалуйста, продолжайте."
+  aeluran_matchmaking.0021.hook:0 "@weak_hook_icon! Я с радостью обменяюсь услугами."
+  aeluran_matchmaking.0021.crystal:0 "@spark_crystal_icon! У меня есть подарок для Ордена."
+
+# can grab any script value
+# [EmptyScope.ScriptValue('tournament_contest_cost_low_discount_value')|%0P]
+
+  aeluran_very_low_respect:0 "#XB Нет уважения#!"
+  aeluran_low_respect:0 "#difficulty_hard Низкое#!"
+  aeluran_neutral_respect:0 "#difficulty_medium Нейтральное#!"
+  aeluran_high_respect:0 "#difficulty_easy Высокое#!"
+  aeluran_very_high_respect:0 "#BOL #G Очень высокое#!#!"
+
+  aeluran_matchmaking_candidate_quantity_1:0 "#strong_glow #color_red 1#!#!"
+  aeluran_matchmaking_candidate_quantity_2:0 "#strong_glow #color_yellow 2#!#!"
+  aeluran_matchmaking_candidate_quantity_3:0 "#strong_glow #color_green 3 (MAX)#!#!"
+
+  aeluran_domination_min_3:0 "#medium_glow #attacker_color #BOL Нет контроля#!#!#!"
+  aeluran_domination_min_2:0 "#negative_value #BOL Низкий контроль#!#!"
+  aeluran_domination_min_1:0 "#difficulty_hard Контроль ускользает#!"
+  aeluran_domination_neutral:0 "#difficulty_medium Нейтральный#!"
+  aeluran_domination_plus_1:0 "#difficulty_easy Некоторый контроль#!"
+  aeluran_domination_plus_2:0 "#positive_value #BOL Высокий контроль#!#!"
+  aeluran_domination_plus_3:0 "#positive_value_toast #BOL Полный контроль#!#!"
+
+  aeluran_matchmaking.0022.title:0 "[SCOPE.Custom('AeluranMatchmakingCandidateTitle')]"
+  aeluran_matchmaking.0022.desc.lord:0 "$matchmaking_candidate_tag$ \n\n[SCOPE.Custom('AeluranMatchmakingCandidateDescription')]"
+  aeluran_matchmaking.0022.ok:0 "#Bold Следующий кандидат#!"
+
+  aeluran_matchmaking.0023.title:0 "[SCOPE.Custom('AeluranMatchmakingCandidateTitle')]"
+  aeluran_matchmaking.0023.desc.lord:0 "$matchmaking_candidate_tag$ \n\n[SCOPE.Custom('AeluranMatchmakingCandidateDescription')]"
+  aeluran_matchmaking.0023.ok:0 "#Bold Следующий кандидат#!"
+
+  aeluran_matchmaking.0024.title:0 "[SCOPE.Custom('AeluranMatchmakingCandidateTitle')]"
+  aeluran_matchmaking.0024.desc.lord:0 "$matchmaking_candidate_tag$ \n\n[SCOPE.Custom('AeluranMatchmakingCandidateDescription')]"
+  aeluran_matchmaking.0024.ok:0 "#Bold Обзор вариантов#!"
+
+  aeluran_matchmaking.0025.title:0 "Выбор"
+  aeluran_matchmaking.0025.desc:0 "Ну что, мой [ROOT.Char.GetLadyLord|U]? Какой жених вам больше подходит?"
+  aeluran_matchmaking.0025.no_choice:0 "Ну что, мой [ROOT.Char.GetLadyLord|U]? Сестры моего Ордена предоставили вам самого подходящего супруга. Полагаю, [match_choice_1.GetSheHe] приемлем?"
+  aeluran_matchmaking.0025.option_1:0 "[SCOPE.Custom('AeluranMatchmakingCandidateOneSelectionText')]"
+  aeluran_matchmaking.0025.option_2:0 "[SCOPE.Custom('AeluranMatchmakingCandidateTwoSelectionText')]"
+  aeluran_matchmaking.0025.option_3:0 "[SCOPE.Custom('AeluranMatchmakingCandidateThreeSelectionText')]"
+
+  aeluran_matchmaking.0026.title:0 "Род укреплен"
+  aeluran_matchmaking.0026.desc:0 "Отличный выбор, мой [ROOT.Char.GetLadyLord|U], пусть ваша [Concept('dynasty', 'династия')|E] становится все сильнее. Какую церемонию мы устроим?"
+  aeluran_matchmaking.0026.ok:0 "Давайте решим вопрос сейчас!"
+  aeluran_matchmaking.0026.grand_wedding:0 "Только Великая Свадьба подойдет!"
+
+  aeluran_matchmaking.0027.title:0 "Отказ от сватовства оспорен"
+  aeluran_matchmaking.0027.desc:0 "С ясным взглядом и хмурым лицом [host.GetName] говорит: «Боюсь, я должна настоять, мой [ROOT.Char.GetLadyLord]. Это ваша обязанность как эльфийского лорда подчиниться...»\n\nПока [host.GetFirstName] продолжает говорить со все возрастающим тоном; вы чувствуете, как ее [Concept('spark_aura', 'Аура Искры')|E] давит на вас, пытаясь подавить и подчинить вашу собственную.\n\nЯсно, что простого отказа будет недостаточно. Вам придется победить [host.GetHerHim] в [Concept('battle_of_wills', 'Битве Воль')|E]"
+  aeluran_matchmaking.0027.learning:0 "Сопротивляться чистой волей."
+  aeluran_matchmaking.0027.intrigue_diplo:0 "Сопротивляться с помощью обаяния."
+
+  aeluran_matchmaking.0028.title:0 "Отказ от сватовства - Победа в Битве Воль"
+  aeluran_matchmaking.0028.desc:0 "С последним усилием ваша [Concept('spark_aura', 'Аура Искры')|E] охватывает ауру [host.GetNamePossessive], и ее воля наконец ломается. Вы видите, как жар покидает [host.GetHerHis] глаза, и [host.GetSheHe] робко говорит: «Как скажете, мой [ROOT.Char.GetLadyLord], мы отложим этот вопрос на другой день»"
+  aeluran_matchmaking.0028.ok:0 "Воистину так"
+
+  aeluran_matchmaking.0029.title:0 "Род должен продолжаться - Поражение в Битве Воль"
+  aeluran_matchmaking.0029.desc:0 "Вы усердно боретесь, но как ни старайтесь, воля [host.GetNamePossessive] остается крепкой, как железо. Как будто это было неизбежностью, ваша [Concept('spark_aura', 'Аура Искры')|E] поглощается [host.GetFirstNamePossessive], и последние остатки вашего сопротивления угасают.\n\nС явной усмешкой на лице [host.GetFirstName] говорит: «Мой [ROOT.Char.GetLadyLord] сегодня не в себе. Хватит этого, давайте снова рассмотрим ваши варианты.»"
+  aeluran_matchmaking.0029.ok:0 "Д-Да, Сестра [host.GetFirstNameNoTooltip]"
+
+
+  aeluran_matchmaking.0030.title:0 "Кандидаты отклонены"
+  aeluran_matchmaking.0030.desc:0 "Очень хорошо, мой [ROOT.Char.GetLadyLord], мой орден будет искать лучших кандидатов, и мы попробуем снова в будущем"
+  aeluran_matchmaking.0030.ok:0 "Благодарю за понимание, Сестра [host.GetFirstNameNoTooltip]"
+
+  matchmaking_standard_elf_candidate_title:0 "Обычный эльф"
+  matchmaking_genetic_good_elf_candidate_title:0 "Генетически одаренный эльф"
+  matchmaking_genetic_great_elf_candidate_title:0 "Генетически выдающийся эльф"
+  matchmaking_aeluran_advisor_candidate_title:0 "Сама сваха"
+  matchmaking_aeluran_sister_candidate_title:0 "Красная Сестра"
+  matchmaking_aeluran_matron_candidate_title:0 "Красная Мать"
+  matchmaking_aeluran_matriarch_candidate_title:0 "Ее Высочество, Пресвятейшая из Красных"
+  matchmaking_genetic_project_candidate_title:0 "Генетическая гипотеза"
+  matchmaking_family_candidate_title:0 "Самое родственное совпадение"
+  matchmaking_bloodline_trait_candidate_title:0 "Из сильной крови"
+  matchmaking_alliance_candidate_title:0 "Потенциальный союзник"
+  matchmaking_warrior_candidate_title:0 "Свирепый воин"
+  matchmaking_wisemen_candidate_title:0 "Мудрейший"
+  matchmaking_imprisoned_rogue_candidate_title:0 "Обходительный негодяй"
+  matchmaking_shy_scholar_candidate_title:0 "Затворник-ученый"
+  matchmaking_bastard_claimant_candidate_title:0 "Честолюбивый бастард"
+  matchmaking_inferior_dowry_candidate_title:0 "Приносящий приданое"
+  matchmaking_foreign_elf_candidate_title:0 "Эльф из далекой страны"
+  matchmaking_twins_candidate_title:0 "Близнецы-духи"
+  matchmaking_triplets_candidate_title:0 "Сила троих"
+
+  matchmaking_candidate_tag:0 "#tooltip_heading [SCOPE.Custom('AeluranMatchmakingCandidateTagging')]#!"
+  matchmaking_candidate_tag_standard_elf:0 "@standard_elf_icon! - Обычный эльф"
+  matchmaking_candidate_tag_genetic_good_elf:0 "@genetic_good_elf_icon! - Генетически одаренный эльф"
+  matchmaking_candidate_tag_genetic_great_elf:0 "@genetic_great_elf_icon! - Генетически выдающийся эльф"
+  matchmaking_candidate_tag_aeluran_advisor:0 "@aeluran_sister_icon! - Ваша Красная Сестра!"
+  matchmaking_candidate_tag_aeluran_sister:0 "@aeluran_sister_icon! - Сестра Аэрулан"
+  matchmaking_candidate_tag_aeluran_matron:0 "@aeluran_matron_icon! - Матрона Аэрулан"
+  matchmaking_candidate_tag_aeluran_matriarch:0 "@aeluran_matriarch_icon! - Верховная Матрона Аэрулан"
+  matchmaking_candidate_tag_genetic_project:0 "@aeluran_experiment_icon! - Генетический эксперимент"
+  matchmaking_candidate_tag_family:0 "@family_choice_icon! - Семья"
+  matchmaking_candidate_tag_bloodline:0 "@bloodline_icon! - Кровная линия"
+  matchmaking_candidate_tag_alliance:0 "@alliance_icon! - Союз"
+  matchmaking_candidate_tag_warrior:0 "@warrior_icon! - Воин"
+  matchmaking_candidate_tag_wiseman:0 "@wiseman_icon! - Мудрец"
+  matchmaking_candidate_tag_imprisoned_rogue:0 "@skill_intrigue_icon! - Заключенный плут"
+  matchmaking_candidate_tag_shy_scholar:0 "@shy_icon! - Застенчивый ученый"
+  matchmaking_candidate_tag_bastard_claimant:0 "@bastard_icon! - Бастард-претендент"
+  matchmaking_candidate_tag_dowry:0 "@gold_icon! - Приданое"
+  matchmaking_candidate_tag_foreigner:0 "@foreigner_icon! - Иностранный эльф"
+  matchmaking_candidate_tag_twins:0 "@twin_icon! - Близнецы"
+  matchmaking_candidate_tag_triplets:0 "@triplet_icon! - Тройняшки"
+  matchmaking_candidate_tag_fallback:0 "@standard_elf_icon! - Ошибка эльфа - сообщите разработчику"
+
+  # NEED TO ADD
+  # - Player vs Player Heir
+  # - Put the actual matches name in the Description!!
+  # - some things like twins/triplet descriptions need to be updated to handle dynamic gender!
+
+  matchmaking_standard_elf_candidate_desc:0 "[candidate.GetName] — обычный эльф без особых талантов или высокого положения. Однако [candidate.GetSheHe|U] — верный эльф веры и стал бы прекрасным супругом."
+
+  matchmaking_genetic_good_elf_candidate_desc:0 "[candidate.GetName] — эльф с хорошей генетической родословной. Подходящая пара, без сомнения, ваша родословная будет сильна кровью на многие поколения вперед."
+
+  matchmaking_genetic_great_elf_candidate_desc:0 "[candidate.GetName] — эльф с выдающейся генетической родословной. Великолепная пара, действительно, ваша родословная будет самой впечатляющей."
+
+  matchmaking_aeluran_advisor_candidate_desc:0 "Мой [ROOT.Char.GetLadyLord], я смиренно предлагаю себя в качестве кандидатки. Мы уже правим этим королевством бок о бок; позвольте нам укрепить эту связь еще больше, сделав меня вашей Королевой Аэрулан."
+
+  matchmaking_aeluran_sister_candidate_desc:0 "Доступна Сестра Аэрулан, и Орден предоставит вам привилегию жениться на такой могущественной супруге. [candidate.GetTitledFirstName] — талантливая магичка, и увеличение влияния Ордена в этих землях всегда приветствуется. Вы не согласны?"
+  
+  matchmaking_aeluran_matron_candidate_desc:0 "Если вы хотите укрепить вашу связь с нашим Орденом, мне была оказана честь объявить, что наша уважаемая Матрона [candidate.GetTitledFirstName] предложила себя в качестве кандидатки. Это действительно довольно редкая честь... Супруга столь могущественная и мудрая поднимет статус как вас, так и Ордена Аэрулан в этих землях."
+
+  matchmaking_aeluran_matriarch_candidate_desc:0 "Мой [ROOT.Char.GetLadyLord|U], с величайшим удовольствием сообщаю вам, что Верховная Матрона [candidate.GetTitledFirstName] уведомила меня. Она оказывает вам высшую честь, предлагая себя в качестве кандидатки! Не было бы другой супруги столь мудрой и могущественной в этом королевстве, как она, поистине пара без равных! Судьба вашей Династии будет связана с Орденом Аэрулан!"
+
+  matchmaking_genetic_project_candidate_desc:0 "Как вы знаете, мой орден постоянно стремится возвысить эльфийские расы через стремление к пророческому генетическому совершенству. С этой целью мы иногда экспериментируем с родословной нашего стада, пытаясь создать новые кровные линии. [candidate.GetName] здесь — пример такого эксперимента. Если вы сможете увидеть за поверхностными аномалиями, вы обнаружите, что этот союз предлагает огромный генетический потенциал для вашей линии!"
+
+  matchmaking_family_candidate_desc:0 "Давайте не забудем ваш собственный дом, более близкое совпадение, несомненно, сохранит или даже усилит чистоту вашей кровной линии."
+
+  matchmaking_bloodline_trait_candidate_desc:0 "Вам действительно очень повезло, мой [ROOT.Char.GetLadyLord|U]. [candidate.GetName] — потомок одной из великих эльфийских династий, и Кровная линия их Дома сильно резонирует внутри [candidate.GetHerHim]. Этот союз мог бы добавить огромную силу вашей линии!"
+
+  matchmaking_alliance_candidate_desc:0 "Благодаря активным переговорам мы нашли еще один могущественный эльфийский дом, открытый для союза. Ваш брак был бы чрезвычайно выгоден для обоих ваших народов"
+
+  matchmaking_warrior_candidate_desc:0 "Сестра из одного из наших самых отдаленных племен сообщила Ордену об этом образце. [candidate.GetName] — прекрасный воин и весьма генетически одарен. Ваш союз, несомненно, принесет огромную силу и честь вашей линии."
+
+  matchmaking_wisemen_candidate_desc:0 "Если мудрый совет в партнере — это то, что вы ищете больше всего, вам не нужно искать дальше [candidate.GetName]. [candidate.GetSheHe|U] весьма учен и также одаренный целитель. Этот союз мог бы помочь заложить великие умы в вашей линии на поколения вперед."
+
+  matchmaking_imprisoned_rogue_candidate_desc:0 "Я колеблюсь даже предлагать этого в качестве кандидата, но в клетках моего подземелья заперт [candidate.GetName]. [candidate.GetSheHe|U] — плут и грешник, ставящий [candidate.GetHerHis] погоню за удовольствиями превыше всего. Однако, я признаю, что [candidate.GetHerHis] глубокое знание преступного мира сделало бы [candidate.GetHerHim] способным и грозным [Concept('spymaster', 'шпионмастером')|E]."
+
+  matchmaking_shy_scholar_candidate_desc:0 "Уговорить [candidate.GetHerHim] прийти сюда для представления потребовало серьезных уговоров от сестер моего ордена. Свежеиспеченный из [candidate.GetHerHis] башни, у нас есть [candidate.GetName]. [candidate.GetSheHe|U] невероятно застенчив, до изнуряющей степени. Однако в [candidate.GetHerHis] одиночестве [candidate.GetSheHe] прожил жизнь великих академических достижений. Если вы ищете жениха великой учености, чтобы помочь лучше обучить ваш двор, вам не нужно искать дальше."
+
+  matchmaking_bastard_claimant_candidate_desc:0 "[candidate.GetName] пришел в наш орден в поисках защиты от своего подлого отца-человека. [candidate.GetSheHe|U] — [GetTrait('bastard').GetName( GetNullCharacter )] и лишь [GetTrait('elf_blood').GetName( GetNullCharacter )] истинный. Однако, имея праведную претензию на титул [candidate.GetHerHis] отца, этот союз мог бы дать вам возможность расширить ваше королевство"
+
+  matchmaking_inferior_dowry_candidate_desc:0 "Обычно мы не обратили бы внимания на просителя совпадения с такой малой эльфийской грацией. Однако [candidate.GetName] сделал щедрое пожертвование нашему Ордену и также предложил предоставить вам приданое за этот брак. Должна сказать, финансово прагматичный вариант"
+
+  matchmaking_foreign_elf_candidate_desc:0 "[candidate.GetName] здесь — путешественник из далекой страны и весьма опытный странник. [candidate.GetHerHis|U] обычаи могут быть чуждыми и странными, но этот союз мог бы помочь внедрить новые способы мышления в ваше королевство."
+
+  matchmaking_twins_candidate_desc:0 "Вас считают правителем высокой ценности для Ордена, и поэтому мы хотим даровать вам достойный союз. Эти две девы — близнецы, благословленные искрой. Они обе превосходного происхождения и обучены путям магии. Редкая и стоящая пара!"
+
+  matchmaking_triplets_candidate_desc:0 "Вас считают правителем высочайшей ценности для Ордена. Как такового, мы хотим благословить вас священным союзом, достойным вашего положения! Здесь стоят три девы-сестры; Тройняшки, явно благословленные искрой. Они исключительного происхождения и обучены путям магии. Великолепная пара для великолепного правителя!"
+
+  matchmaking_standard_elf_candidate_selection_1:0 "@standard_elf_icon! Я выбираю [match_choice_1.GetName]"
+  matchmaking_genetic_good_elf_candidate_selection_1:0 "@genetic_good_elf_icon! Укрепить кровь, я выбираю [match_choice_1.GetName]"
+  matchmaking_genetic_great_elf_candidate_selection_1:0 "@genetic_great_elf_icon! Мои потомки будут могучи, я выбираю [match_choice_1.GetName]"
+  matchmaking_aeluran_advisor_candidate_selection_1:0 "@aeluran_sister_icon! Я выбираю вас, Сестра [match_choice_1.GetFirstName]!"
+  matchmaking_aeluran_sister_candidate_selection_1:0 "@aeluran_sister_icon! Я выбираю Сестру [match_choice_1.GetFirstName]"
+  matchmaking_aeluran_matron_candidate_selection_1:0 "@aeluran_matron_icon! Я выбираю Мать [match_choice_1.GetFirstName]"
+  matchmaking_aeluran_matriarch_candidate_selection_1:0 "@aeluran_matriarch_icon! Я выбираю Ее Святейшество, Верховную Матрону [match_choice_1.GetFirstName]!"
+  matchmaking_genetic_project_candidate_selection_1:0 "@aeluran_experiment_icon! Я выбираю [match_choice_1.GetFirstName], я доверяю плану Аэрулан!"
+  matchmaking_family_candidate_selection_1:0 "@family_choice_icon! Я выбираю мою дорогую [match_choice_1.GetFirstName], сохраним кровь чистой!"
+  matchmaking_bloodline_trait_candidate_selection_1:0 "@bloodline_icon! Я выбираю [match_choice_1.GetFirstName], поистине благородная кровная линия!"
+  matchmaking_alliance_candidate_selection_1:0 "@alliance_icon! Сильный союз пойдет на пользу всем эльфам. Я выбираю [match_choice_1.GetName]"
+  matchmaking_warrior_candidate_selection_1:0 "@warrior_icon! Я выбираю Громилу, [match_choice_1.GetName]. Сила — это власть!"
+  matchmaking_wisemen_candidate_selection_1:0 "@wiseman_icon! Я выбираю Мудреца, [match_choice_1.GetName]."
+  matchmaking_imprisoned_rogue_candidate_selection_1:0 "@skill_intrigue_icon! Я смогу исправить [match_choice_1.GetHerHim], я выбираю [match_choice_1.GetName]."
+  matchmaking_shy_scholar_candidate_selection_1:0 "@shy_icon! Тишина меня не беспокоит, я выбираю [match_choice_1.GetName]."
+  matchmaking_bastard_claimant_candidate_selection_1:0 "@bastard_icon! Возможность расширить мое королевство, я выбираю [match_choice_1.GetName]."
+  matchmaking_inferior_dowry_candidate_selection_1:0 "@gold_icon! Я выбираю Золото [match_choice_1.GetName]"
+  matchmaking_foreign_elf_candidate_selection_1:0 "@foreigner_icon! Я выбираю Путешественника издалека, [match_choice_1.GetName]"
+  matchmaking_twins_candidate_selection_1:0 "@twin_icon! Я выбираю их обеих!"
+  matchmaking_triplets_candidate_selection_1:0 "@triplet_icon! Я выбираю трио!"
+
+  matchmaking_standard_elf_candidate_selection_2:0 "@standard_elf_icon! Я выбираю [match_choice_2.GetName]"
+  matchmaking_genetic_good_elf_candidate_selection_2:0 "@genetic_good_elf_icon! Укрепить кровь, я выбираю [match_choice_2.GetName]"
+  matchmaking_genetic_great_elf_candidate_selection_2:0 "@genetic_great_elf_icon! Мои потомки будут могучи, я выбираю [match_choice_2.GetName]"
+  matchmaking_aeluran_advisor_candidate_selection_2:0 "@aeluran_sister_icon! Я выбираю вас, Сестра [match_choice_2.GetFirstName]!"
+  matchmaking_aeluran_sister_candidate_selection_2:0 "@aeluran_sister_icon! Я выбираю Сестру [match_choice_2.GetFirstName]"
+  matchmaking_aeluran_matron_candidate_selection_2:0 "@aeluran_matron_icon! Я выбираю Мать [match_choice_2.GetFirstName]"
+  matchmaking_aeluran_matriarch_candidate_selection_2:0 "@aeluran_matriarch_icon! Я выбираю Ее Святейшество, Верховную Матрону [match_choice_2.GetFirstName]!"
+  matchmaking_genetic_project_candidate_selection_2:0 "@aeluran_experiment_icon! Я выбираю [match_choice_2.GetFirstName], я доверяю плану Аэрулан!"
+  matchmaking_family_candidate_selection_2:0 "@family_choice_icon! Я выбираю мою дорогую [match_choice_2.GetFirstName], сохраним кровь чистой!"
+  matchmaking_bloodline_trait_candidate_selection_2:0 "@bloodline_icon! Я выбираю [match_choice_2.GetFirstName], поистине благородная кровная линия!"
+  matchmaking_alliance_candidate_selection_2:0 "@alliance_icon! Сильный союз пойдет на пользу всем эльфам. Я выбираю [match_choice_2.GetName]"
+  matchmaking_warrior_candidate_selection_2:0 "@warrior_icon! Я выбираю Громилу, [match_choice_2.GetName]. Сила — это власть!"
+  matchmaking_wisemen_candidate_selection_2:0 "@wiseman_icon! Я выбираю Мудреца, [match_choice_2.GetName]."
+  matchmaking_imprisoned_rogue_candidate_selection_2:0 "@skill_intrigue_icon! Я смогу исправить [match_choice_2.GetHerHim], я выбираю [match_choice_2.GetName]."
+  matchmaking_shy_scholar_candidate_selection_2:0 "@shy_icon! Тишина меня не беспокоит, я выбираю [match_choice_2.GetName]."
+  matchmaking_bastard_claimant_candidate_selection_2:0 "@bastard_icon! Возможность расширить мое королевство, я выбираю [match_choice_2.GetName]."
+  matchmaking_inferior_dowry_candidate_selection_2:0 "@gold_icon! Я выбираю Золото [match_choice_2.GetName]"
+  matchmaking_foreign_elf_candidate_selection_2:0 "@foreigner_icon! Я выбираю Путешественника издалека, [match_choice_2.GetName]"
+  matchmaking_twins_candidate_selection_2:0 "@twin_icon! Я выбираю их обеих!"
+  matchmaking_triplets_candidate_selection_2:0 "@triplet_icon! Я выбираю трио!"
+
+  matchmaking_standard_elf_candidate_selection_3:0 "@standard_elf_icon! Я выбираю [match_choice_3.GetName]"
+  matchmaking_genetic_good_elf_candidate_selection_3:0 "@genetic_good_elf_icon! Укрепить кровь, я выбираю [match_choice_3.GetName]"
+  matchmaking_genetic_great_elf_candidate_selection_3:0 "@genetic_great_elf_icon! Мои потомки будут могучи, я выбираю [match_choice_3.GetName]"
+  matchmaking_aeluran_advisor_candidate_selection_3:0 "@aeluran_sister_icon! Я выбираю вас, Сестра [match_choice_3.GetFirstName]!"
+  matchmaking_aeluran_sister_candidate_selection_3:0 "@aeluran_sister_icon! Я выбираю Сестру [match_choice_3.GetFirstName]"
+  matchmaking_aeluran_matron_candidate_selection_3:0 "@aeluran_matron_icon! Я выбираю Мать [match_choice_3.GetFirstName]"
+  matchmaking_aeluran_matriarch_candidate_selection_3:0 "@aeluran_matriarch_icon! Я выбираю Ее Святейшество, Верховную Матрону [match_choice_3.GetFirstName]!"
+  matchmaking_genetic_project_candidate_selection_3:0 "@aeluran_experiment_icon! Я выбираю [match_choice_3.GetFirstName], я доверяю плану Аэрулан!"
+  matchmaking_family_candidate_selection_3:0 "@family_choice_icon! Я выбираю мою дорогую [match_choice_3.GetFirstName], сохраним кровь чистой!"
+  matchmaking_bloodline_trait_candidate_selection_3:0 "@bloodline_icon! Я выбираю [match_choice_3.GetFirstName], поистине благородная кровная линия!"
+  matchmaking_alliance_candidate_selection_3:0 "@alliance_icon! Сильный союз пойдет на пользу всем эльфам. Я выбираю [match_choice_3.GetName]"
+  matchmaking_warrior_candidate_selection_3:0 "@warrior_icon! Я выбираю Громилу, [match_choice_3.GetName]. Сила — это власть!"
+  matchmaking_wisemen_candidate_selection_3:0 "@wiseman_icon! Я выбираю Мудреца, [match_choice_3.GetName]."
+  matchmaking_imprisoned_rogue_candidate_selection_3:0 "@skill_intrigue_icon! Я смогу исправить [match_choice_3.GetHerHim], я выбираю [match_choice_3.GetName]."
+  matchmaking_shy_scholar_candidate_selection_3:0 "@shy_icon! Тишина меня не беспокоит, я выбираю [match_choice_3.GetName]."
+  matchmaking_bastard_claimant_candidate_selection_3:0 "@bastard_icon! Возможность расширить мое королевство, я выбираю [match_choice_3.GetName]."
+  matchmaking_inferior_dowry_candidate_selection_3:0 "@gold_icon! Я выбираю Золото [match_choice_3.GetName]"
+  matchmaking_foreign_elf_candidate_selection_3:0 "@foreigner_icon! Я выбираю Путешественника издалека, [match_choice_3.GetName]"
+  matchmaking_twins_candidate_selection_3:0 "@twin_icon! Я выбираю их обеих!"
+  matchmaking_triplets_candidate_selection_3:0 "@triplet_icon! Я выбираю трио!"
+
+  aeluran_matchmaking_choice.none:0 "Никто из них не подходит."
+
+  matchmaking_debug_match_options:0 "Пара 1 - [match_choice_1.GetName] | Пара 2 - [match_choice_2.GetName] | Пара 3 - [match_choice_3.GetName]"

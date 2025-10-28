@@ -1,0 +1,10 @@
+﻿l_russian:
+  aeluran_hud_tt: "ТИТУЛ АЭРУЛАН"
+  # aeluran_hud_tt: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )] Ruler [LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )]"
+  aeluran_hud_tt_subheading: "ПОДЗАГОЛОВОК АЭРУЛАН"
+  # aeluran_hud_tt_subheading: "[legitimacy_level|E] for the [LegitimacyType.GetName]"
+
+  magi_levy_county_contribution_breakdown:0 "Разбивка вклада"
+  owned_counties:0 "Принадлежащие графства"
+  magi_per_county:0 "Магов за графство"
+  magi_per_county_value:0 "[GetPlayer.MakeScope.ScriptValue('base_aeluran_contribution_value')]"

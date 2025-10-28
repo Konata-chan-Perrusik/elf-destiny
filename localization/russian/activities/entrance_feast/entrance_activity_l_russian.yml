@@ -1,0 +1,64 @@
+﻿l_russian:
+  plant_seed_attempt_phase:0 "Посадить Семя Очарования"
+  plant_seed_attempt_phase_desc:0 "Происки Очарователя начинают опутывать его жертву."
+
+  complete_entrance_attempt_phase:0 "Попытка закрепить Очарование"
+  complete_entrance_attempt_phase_desc:0 "Происки пытаются Очаровать хозяина."
+  
+  feast_phase_meal_2:0 "Пир"
+  feast_phase_meal_2_desc:0 "Еда, напитки и хорошая компания, #EMP есть ли что-то лучшее?#!"
+
+  ensnared_in_entrancement:0 "Опутанный Очарованием" 
+
+  entrance:0 "Очарование"
+  entrance_action:0 "Очаровать"
+  
+  entrance_flavor:0 "Вы пытаетесь опутать свою цель, используя силу Искры!"
+
+  entrance_attempt.success_1:0 "Вы успешно накладываете свою сущность Искры на [victim.GetFullName]."
+  entrance_attempt.failure_1:0 "Вам не удается наложить свою сущность Искры на [victim.GetFullName]."
+  entrance_attempt.success_2:0 "Вы успешно подчиняете [victim.GetFullName] своей воле."
+  entrance_attempt.failure_2:0 "Вам не удается подчинить [victim.GetFullName]."
+
+  entrance_modifiers_desc:0 "#T Entrance Battle Of Wills Bonus Modifiers#!#indent_newline:2 \n[SCOPE.Custom('EntranceMinorPositiveElfLevelModifier')][SCOPE.Custom('EntranceMinorPositiveSparkManipulationModifier')][SCOPE.Custom('EntranceMinorPositiveAttractionModifier')][SCOPE.Custom('EntranceMidPositiveElfLevelModifier')][SCOPE.Custom('EntranceMidPositiveSparkManipulationModifier')][SCOPE.Custom('EntranceMidPositiveAttractionModifier')][SCOPE.Custom('EntranceLoverModifier')][SCOPE.Custom('EntranceEnchanterIsMagiModifier')][SCOPE.Custom('EntranceMajorPositiveElfLevelModifier')][SCOPE.Custom('EntranceMajorPositiveAttractionModifier')][SCOPE.Custom('EntranceSoulMateModifier')][SCOPE.Custom('EntranceEnchanterIsEnchantressModifier')][SCOPE.Custom('EntranceMinorNegativeElfLevelModifier')][SCOPE.Custom('EntranceMinorNegativeAttractionModifier')][SCOPE.Custom('EntranceMinorNegativeSparkManipulationModifier')][SCOPE.Custom('EntranceMidNegativeElfLevelModifier')][SCOPE.Custom('EntranceMidNegativeSparkManipulationModifier')][SCOPE.Custom('EntranceMidNegativeAttractionModifier')][SCOPE.Custom('EntranceVictimNotAttractedGenderModifier')][SCOPE.Custom('EntranceVictimIsMagiModifier')][SCOPE.Custom('EntranceMajorNegativeElfLevelModifier')][SCOPE.Custom('EntranceMajorNegativeSparkManipulationModifier')][SCOPE.Custom('EntranceMajorNegativeAttractionModifier')][SCOPE.Custom('EntranceVictimIsEnchantressModifier')][SCOPE.Custom('EntranceEnemyModifier')]" 
+
+  entrance_attempt_modifiers:0 ""
+
+  entrance_difference_in_elf_level.small_boost:0 "\n#P + Ваш уровень эльфа выше#!"
+  entrance_difference_in_elf_level.big_boost:0 "\n#P ++ Ваш уровень эльфа значительно выше#!"
+  entrance_difference_in_elf_level.massive_boost:0 "\n#P +++ Ваш уровень эльфа намного превосходит#!"
+  entrance_difference_in_elf_level.small_penalty:0 "\n#N - Ваш уровень эльфа ниже#!"
+  entrance_difference_in_elf_level.big_penalty:0 "\n#N -- Ваш уровень эльфа значительно ниже#!"
+  entrance_difference_in_elf_level.massive_penalty:0 "\n#N --- Ваш уровень эльфа намного уступает#!"
+
+  entrance_difference_in_magic_talent.small_boost:0 "\n#P + Ваш талант управления Искрой выше#!"
+  entrance_difference_in_magic_talent.big_boost:0 "\n#P ++ Ваш талант управления Искрой значительно выше#!"
+  entrance_difference_in_magic_talent.massive_boost:0 "\n#P +++ Ваш талант управления Искрой намного превосходит#!"
+  entrance_difference_in_magic_talent.small_penalty:0 "\n#N - Ваш талант управления Искрой ниже#!"
+  entrance_difference_in_magic_talent.big_penalty:0 "\n#N -- Ваш талант управления Искрой значительно ниже#!"
+  entrance_difference_in_magic_talent.massive_penalty:0 "\n#N --- Ваш талант управления Искрой намного уступает#!"
+
+  entrance_difference_in_attraction.small_boost:0 "\n#P + Вы более привлекательны#!"
+  entrance_difference_in_attraction.big_boost:0 "\n#P ++ Вы значительно более привлекательны#!"
+  entrance_difference_in_attraction.massive_boost:0 "\n#P +++ Вы намного более привлекательны#!"
+  entrance_difference_in_attraction.small_penalty:0 "\n#N - Вы менее привлекательны#!"
+  entrance_difference_in_attraction.big_penalty:0 "\n#N -- Вы значительно менее привлекательны#!"
+  entrance_difference_in_attraction.massive_penalty:0 "\n#N --- Вы намного менее привлекательны#!"
+
+  entrance_not_attracted_to_gender.m.massive_penalty:0 "\n#N --- Их не привлекают мужчины#!"
+  entrance_not_attracted_to_gender.f.massive_penalty:0 "\n#N --- Их не привлекают женщины#!"
+
+  entrance_lover_boost:0 "\n#P ++ [victim.GetFirstName] — ваша [Concept('lover', 'любовь')|E]#!"
+  entrance_soulmate_boost:0 "\n#P +++ [victim.GetFirstName] — ваша [Concept('soulmate', 'вторая половинка')|E]#!"
+  entrance_rival_penalty:0 "\n#N -- [victim.GetFirstName] — ваш [Concept('rival', 'соперник')|E]#!"
+  entrance_nemesis_penalty:0 "\n#N --- [victim.GetFirstName] — ваш [Concept('nemesis', 'заклятый враг')|E]#!"
+
+  entrance_entrancer_is_enchantress:0 "\n#P +++ Вы — @enchantress_icon! [GetTrait('enchantress').GetName( GetNullCharacter )]#!"
+  entrance_victim_is_enchantress:0 "\n#N --- Ваша цель — @enchantress_icon! [GetTrait('enchantress').GetName( GetNullCharacter )]#!"
+
+  entrance_entrancer_is_magi:0 "\n#P ++ Вы — @magi_icon! [GetTrait('magi').GetName( GetNullCharacter )]#!"
+  entrance_victim_is_magi:0 "\n#N -- Ваша цель — @magi_icon! [GetTrait('magi').GetName( GetNullCharacter )]#!"
+
+  spacer:0 "\n" 
+
+  tried_to_entrance:0 "[TARGET_CHARACTER.GetShortUIName|U] пытается очаровать [CHARACTER.GetShortUIName|U]."

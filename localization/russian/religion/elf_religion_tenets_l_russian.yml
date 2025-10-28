@@ -1,0 +1,29 @@
+﻿l_russian:
+  doctrine_parameter_tenet_aeluran_sisters:0 "Правители этой веры получают привилегию иметь [Concept('aeluran_advisor', 'аэлуранского советника')|E] для помощи в управлении владениями. Она будет выполнять все обязанности, обычно возлагаемые на [Concept('realm_priest', 'священника владения')|E], а также:\n - Контролировать формирование полка [GetMaA('aeluran_war_magi').GetName] и [GetMaA('aeluran_artillery').GetName] для защиты вашего эльфийского владения\n - Сеять раздор во владениях ваших врагов\n - Получать [Concept('hooks', 'крючки')|E]" #EMP (Religious Exaltation)#! on your courtiers and vassals."
+
+  # todo: I think at lower control levels you should get some Unique MAA!
+  # maybe aelurans vassals start to build special buildings at low control! spell power +1
+
+  doctrine_parameter_hostility_override_elf_hostility_doctrine:1 "Эльфийские [Concept('faiths', 'веры')|E] считаются лишь [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+
+  doctrine_parameter_is_elf_faith_bilateral_loc_override:2 "Считает эльфийские [Concept('faiths', 'веры')|E], и считается эльфийскими $game_concept_faiths$, [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$"
+
+  doctrine_parameter_is_elf_faith_one_way_loc_override:2 "Считает эльфийские [Concept('faiths', 'веры')|E] [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+
+  doctrine_parameter_hostility_override_special_doctrine_is_elf_faith:0 "Считает эльфийские [Concept('faiths', 'веры')|E], и считается эльфийскими $game_concept_faiths$, [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$"
+
+  doctrine_parameter_elf_syncretic_actor_opinion_active:0 "Взаимный бонус [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] к [Concept('opinion', 'мнению')|E] с эльфийскими [Concept('faiths', 'верами')|E]"
+  doctrine_parameter_opinion_of_elf_syncretic_recipient_opinion_active:0 ""
+
+  elf_syncretic_actor_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+
+  special_doctrine_is_elf_faith_name:0 "Эльфийская Адаптивность"
+  is_elf_faith_name:0 "$special_doctrine_is_christian_faith_name$"
+  special_doctrine_is_elf_faith_desc:0 "В мире есть те, кто не понимает и не верит в волю Божественной Искры. Хотя это и богохульство, мы должны проявлять сострадание к этим заблудшим душам, ибо однажды они могут обратиться к истинной вере."
+
+  doctrine_parameter_hostility_override_tenet_elf_syncretism:0 "Не-эльфийские [Concept('faiths', 'веры')|E] с принципом $tenet_elf_syncretism_name$ считаются [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$"
+  
+  doctrine_parameter_opinion_of_elf_syncretic_recipient_opinion_active:0 ""
+  doctrine_parameter_opinion_of_elf_syncretic_actor_opinion_active:0 ""
+  doctrine_parameter_elf_syncretic_recipient_opinion_active:0 "Взаимный бонус [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] к [Concept('opinion', 'мнению')|E] с [Concept('faiths', 'верами')|E], имеющими [Concept('core_tenet', 'основной принцип')|E] $tenet_elf_syncretism_name$"
+  doctrine_parameter_faith_of_elves:0 ""

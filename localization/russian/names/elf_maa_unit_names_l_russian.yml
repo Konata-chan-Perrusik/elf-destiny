@@ -1,0 +1,47 @@
+﻿l_russian:
+  wolf_riders:0 "Волчьи всадники"
+  direwolf_riders:0 "Всадники на лютоволках"
+  elk_archers:0 "Драгунские стрелки Моссвуда"
+  fey_archers:0 "Стрелки фей"
+  elite_bow_knights:0 "Страж-лучник"
+  aeluran_war_magi:0 "Боевые маги Аэлуран"
+  aeluran_artillery:0 "Артиллерия магов Аэлуран"
+
+  warband_ravagers:0 "Опустошители орды"
+  warband_vanguard:0 "Авангард орды"
+
+  wolf_riders_flavor:0 "#F Их боятся во всех землях эльфов и людей. Закованные в доспехи рыцари восседают на спинах чудовищных волков.#!"
+  elk_archers_flavor:0 "#F Нет кавалерии быстрее. Немногие могут избежать их сокрушительного преследования.#!"
+  fey_archers_flavor:0 "#F Самое распространённое призвание воина-эльфа. Их умение точно пускать стрелы — главный страх человеческой пехоты.#!"
+  elite_bow_knights_flavor:0 "#F Элитные рыцари эльфийского народа. Они поражают врагов и луком, и мечом, а затем исчезают, прежде чем противник успевает это осознать.#!"
+  aeluran_war_magi_flavor:0 "#F Боевые маги Ордена Аэлуран. Их разрушительные заклинания разрывают поле боя на части.#!"
+  aeluran_artillery_flavor:0 "#F Маги Ордена Аэлуран, специализирующиеся на осадной магии дальнего радиуса. Когда они приходят стучать в ворота, в безопасности не останется ни одна крепость, кроме самой сильно защищённой.#!"
+
+  warband_ravagers_flavor:0 "#F Немногие воины сражаются с такой яростью и стремительностью. Они атакуют каждый фланг копьями, топорами и дубинами!#!"
+  warband_vanguard_flavor:0 "#F Воины величайшей отваги и мощи занимают место на острие авангарда. Их свирепость обращает в бегство всех противников!#!"
+
+  direwolf_riders_flavor:0 "#F Крупнее и сильнее обычных волков, эти мощные существа наносят сокрушительные удары. Их скорость и размер делают их непревзойдённой ударной кавалерией!#!"
+
+  # warband_ravagers_flavor:0 "[GetMaA('warband_ravagers').GetName]"
+  # warband_vanguard_flavor:0 "[GetMaA('warband_vanguard').GetName]"
+
+  spark_wielders:0 "[Concept('spark_wielders', 'Исполнители Искры')|E]"
+  game_concept_spark_wielder:0 "Исполнитель Искры"
+  game_concept_spark_wielders:0 "Исполнители Искры"
+  game_concept_spark_wielders_desc:0 "Исполнители Искры — это [Concept('men_at_arms', 'профессиональные солдаты')|E], одарённые способностью использовать силу Божественной Искры, чтобы уничтожать врагов мощной магией.\n\nОбычно они [Concept('counter', 'противостоят')|E] большинству других типов отрядов, но сами являются стеклянными пушками; их легко уничтожить без прикрытия."
+
+  stationed_aeluran_magi:0 "Маги Аэлуран"
+
+  stationed_aeluran_magi_1:0 "#highlight Свита магов Аэлуран#!"
+  stationed_aeluran_magi_2:0 "#highlight Полная стража магов Аэлуран#!"
+  stationed_aeluran_magi_3:0 "#highlight Великое воинство магов Аэлуран#!"
+
+  stationed_aeluran_magi_1_with_icon:0 "@stationed_aeluran_magi_1_icon! #highlight Свита магов Аэлуран#!"
+  stationed_aeluran_magi_2_with_icon:0 "@stationed_aeluran_magi_2_icon! #highlight Полная стража магов Аэлуран#!"
+  stationed_aeluran_magi_3_with_icon:0 "@stationed_aeluran_magi_3_icon! #highlight Великое воинство магов Аэлуран#!"
+  
+
+  aeluran_reinforcement_level_1_tooltip:0 "Вы можете содержать небольшой отряд [Concept('aeluran_magi_regiments', 'полков магов Аэлуран')|E]"
+  aeluran_reinforcement_level_2_tooltip:0 "Вы можете содержать крупный отряд [Concept('aeluran_magi_regiments', 'полков магов Аэлуран')|E]"
+  aeluran_reinforcement_level_3_tooltip:0 "Вы можете содержать очень крупный отряд [Concept('aeluran_magi_regiments', 'полков магов Аэлуран')|E]"
+

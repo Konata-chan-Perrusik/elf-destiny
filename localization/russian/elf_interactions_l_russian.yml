@@ -1,0 +1,5 @@
+﻿l_russian:
+  #
+  CHARACTER_IS_AN_ELF:0 "[CHARACTER.GetShortUIName|U] — эльф"
+  IS_AN_ELF:0 "Является эльфом"
+  IS_NOT_AN_ELF:0 "Является #bold не#! эльфом"

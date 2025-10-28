@@ -1,0 +1,17 @@
+﻿l_russian:
+  #
+  slayed_knight_in_battle:0 "Победил(а) рыцаря в битве"
+  slayed_knight_in_battle_desc_1:0 "Я победил(а) могучего [slayed_knight.GetTitledFirstName] в битве"
+  slayed_knight_in_battle_desc_2:0 "Я одержал(а) победу над [slayed_knight.GetTitledFirstName] в битве, его смерть была быстрой"
+  slayed_knight_in_battle_desc_second_perspective_1:0 "Вы победили [slayed_knight.GetTitledFirstName]"
+  slayed_knight_in_battle_desc_second_perspective_2:0 "Вы прервали жизнь [slayed_knight.GetTitledFirstName] в битве"
+  slayed_knight_in_battle_desc_third_perspective_1:0 "[owner.GetName] победил(а) [slayed_knight.GetTitledFirstName]"
+  slayed_knight_in_battle_desc_third_perspective_2:0 "[owner.GetName] убил(а) [slayed_knight.GetTitledFirstName] в битве"
+
+  slayed_opponent_in_single_combat:0 "Победил(а) противника в поединке"
+  slayed_opponent_in_single_combat_desc_1:0 "Я победил(а) могучего [slayed_opponent.GetTitledFirstName] в поединке"
+  slayed_opponent_in_single_combat_desc_2:0 "Я одержал(а) победу над [slayed_opponent.GetTitledFirstName] в поединке, его смерть была быстрой"
+  slayed_opponent_in_single_combat_desc_second_perspective_1:0 "Вы победили [slayed_opponent.GetTitledFirstName]"
+  slayed_opponent_in_single_combat_desc_second_perspective_2:0 "Вы прервали жизнь [slayed_opponent.GetTitledFirstName] в поединке"
+  slayed_opponent_in_single_combat_desc_third_perspective_1:0 "[owner.GetName] победил(а) [slayed_opponent.GetTitledFirstName]"
+  slayed_opponent_in_single_combat_desc_third_perspective_2:0 "[owner.GetName] убил(а) [slayed_opponent.GetTitledFirstName] в поединке"

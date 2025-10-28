@@ -1,0 +1,5 @@
+﻿l_russian:
+ urf_phenotype_human_modifier:0 "Человек"
+ urf_low_sapient_modifier:0 "[Concept('low_sapient', 'низкоразумный')|E]"
+ urf_mitle_sapient_modifier:0 "[Concept('mitle_sapient', 'среднеразумный')|E]"
+ urf_ethereal_sapient_modifier:0 "[Concept('ethereal_sapient', 'высокоразумный')|E]"

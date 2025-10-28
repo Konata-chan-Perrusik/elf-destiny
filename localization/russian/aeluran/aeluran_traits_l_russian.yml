@@ -1,0 +1,31 @@
+﻿l_russian:
+    # Aeluran Order Traits
+    trait_aeluran_servant:0 "Слуга Аэрулан"
+    trait_aeluran_servant_desc:0 "Слуги Аэрулан — низшие и самые многочисленные члены Ордена Аэрулан. Они преданы служению Сёстрам."
+    trait_aeluran_sister:0 "Сестра Аэрулан"
+    trait_aeluran_sister_desc:0 "С детства обученные путям Ордена Аэрулан, Сёстры Аэрулан были воспитаны как могущественные маги и мудрые советники."
+    trait_aeluran_matron:0 "Матрона Аэрулан"
+    trait_aeluran_matron_desc:0 "Матроны Аэрулан — самая элитная и могущественная часть Ордена Аэрулан. Они формируют руководящий совет ордена и часто гораздо более одарены в управлении Искрой, чем обычные сёстры."
+    trait_aeluran_high_matriarch:0 "Верховная Матрона Аэрулан"
+    trait_aeluran_high_matriarch_desc:0 "Верховная Матрона Аэрулан — безоговорочный лидер Аэрулан. Избираемая Советом Матрон, Верховная Матрона обычно является самой могущественной и мудрой сестрой во всём ордене."
+
+    trait_born_in_the_red:0 "Рождённый в Красном"
+    trait_born_in_the_red_desc:0 "Этот персонаж рождён от Матроны Аэрулан, благословлённое дитя, на которого возлагаются большие надежды."
+    trait_born_in_the_red_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] был рождён от Матроны Аэрулан, благословлённое дитя, на которого возлагаются большие надежды."
+
+    # TRAIT_DESC_POSITIVE_FOR_LIEGE:0 "This is liked by [CHARACTER.GetShortUIName], [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [liege|E] ([CHARACTER.GetFaith.GetAdjective])"
+    # TRAIT_DESC_POSIITIVE_FOR_THEM:0 "This is liked by [CHARACTER.GetShortUINamePossessiveNoTooltip] faith ([CHARACTER.GetFaith.GetAdjective])"
+    aeluran_weavers_government_opinion:0 "[Concept('aeluran_weavers_government', 'Правительство Ткачей Аэрулан')|E] мнение [Concept('ruler', 'правителя')|E]"
+    aeluran_weavers_government_vassal_opinion:0 "[Concept('aeluran_weavers_government', 'Правительство Ткачей Аэрулан')|E] мнение [Concept('vassal', 'вассала')|E]"
+    aeluran_weavers_government_tax_contribution_mult:0 "[Concept('aeluran_weavers_government', 'Правительство Ткачей Аэрулан')|E] [Concept('vassal', 'вассал')|E] [Concept('tax', 'налоги')|E] [Concept('modifier_contribution', 'вклад модификатора')|E]"
+    aeluran_weavers_government_levy_contribution_mult:0 "[Concept('aeluran_weavers_government', 'Правительство Ткачей Аэрулан')|E] [Concept('vassal', 'вассал')|E] [Concept('levy', 'ополчение')|E] [Concept('modifier_contribution', 'вклад модификатора')|E]"
+    
+    aeluran_respect_servant_bonus:0 "#medium Aeluran Respect: @aeluran_order_1_icon! #N -0.1#! month#!\n\n"
+    aeluran_respect_sister_bonus:0 "#medium Aeluran Respect: @aeluran_order_1_icon! #P +0.1#!/month#!\n\n"
+    aeluran_respect_matron_bonus:0 "#medium Aeluran Respect: @aeluran_order_1_icon! #P +0.25#!/month#!\n\n"
+    aeluran_respect_matriarch_bonus:0 "#medium Aeluran Respect: @aeluran_order_1_icon! #P +0.5#!/month#!\n\n"
+
+    spark_wielders_maintenance_mult:0 "Содержание [Concept('spark_wielders', 'Воинов Искры')|E]"
+    spark_wielders_max_size_add:0 "Макс. размер [Concept('regiments', 'полков')|E] [Concept('spark_wielders', 'Воинов Искры')|E] "
+
+    rf_spark_opinion:1 "\nМнение эльфийской веры"

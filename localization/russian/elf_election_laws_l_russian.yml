@@ -1,0 +1,36 @@
+﻿l_russian:
+  elf_elective_succession_law:0 "Эльфийская Выборная"
+  elf_elective_electors:0 "Эльфы-де-юре Вассалы"
+  elf_elective_electors_tooltip:0 "Чтобы быть действительным [Concept('elector', 'выборщиком')|E] при Эльфийской Выборной, вассал должен соответствовать всем следующим условиям:\n$EFFECT_LIST_BULLET$Быть эльфом\n$EFFECT_LIST_BULLET$Быть [Concept('de_jure', 'де-юре')|E] вассалом титула"
+  elf_elective_candidates:0 "Семья Эльфийского Владыки и Прямые Де-юре Вассалы"
+  elf_elective_candidates_tooltip:0 "Чтобы быть действительным кандидатом при Эльфийской Выборной, персонаж должен быть эльфом и соответствовать одному из следующих условий:\n$EFFECT_LIST_BULLET$Быть законным членом [Concept('close_family', 'близкой семьи')|E] правящего правителя, чей [Concept('primary_title', 'основной титул')|E] имеет более низкий или равный [Concept('title_tier', 'ранг титула')|E], чем избираемый титул.\n$EFFECT_LIST_BULLET$Быть законным членом [Concept('extended_family', 'расширенной семьи')|E] правящего правителя, который [Concept('unlanded', 'не имеет земель')|E] и не является наследником Теократии или Республики.\n$EFFECT_LIST_BULLET$Быть [Concept('claimant', 'претендентом')|E] на титул, который не является наследником Теократии или Республики.\n$EFFECT_LIST_BULLET$Быть прямым де-юре вассалом титула"
+
+  tooltip_elven_vote_strength_aeluran_order_vassal:0 "Вассал Аэлуран - Контроль Владыки: [holder.Custom('AeluranMatchmakingDominationScore')] : $VALUE|=+0$"
+
+
+
+  tooltip_basic_genetic_electability_modifier_bonus_desc:0 "Генетическая предпочтительность [candidate.GetFirstNameNicknamedPossessive]: $VALUE|=+0$"
+  tooltip_has_valerith_bloodline_modifier_bonus_desc:0 "[candidate.GetSheHe|U] из крови @bloodline_valerith_icon! Валэрит: $VALUE|=+0$"
+  tooltip_has_serelion_bloodline_modifier_bonus_desc:0 "[candidate.GetSheHe|U] из крови @bloodline_serelion_icon! Серелион: $VALUE|=+0$"
+  tooltip_has_gwynthorn_bloodline_modifier_bonus_desc:0 "[candidate.GetSheHe|U] из крови @bloodline_gwynthorn_icon! Гвинторн: $VALUE|=+0$"
+  tooltip_has_thundarael_bloodline_modifier_bonus_desc:0 "[candidate.GetSheHe|U] из крови @bloodline_thundarael_icon! Тундараэль: $VALUE|=+0$"
+  tooltip_has_daelurin_bloodline_modifier_bonus_desc:0 "[candidate.GetSheHe|U] из крови @bloodline_daelurin_icon! Даэлурин: $VALUE|=+0$"
+
+  tooltip_is_human_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — презренный(ая) @human_icon! человек: $VALUE|=+0$"
+  tooltip_elf_blood_modifier_bonus_desc:0 "У [candidate.GetSheHe|U] лишь немного @elf_blood_icon! эльфийской крови: $VALUE|=+0$"
+  tooltip_elf_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @elf_icon! эльф: $VALUE|=+0$"
+  tooltip_high_elf_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @elf_icon! высший эльф: $VALUE|=+0$"
+  tooltip_true_elf_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @fae_tier_icon! истинный эльф: $VALUE|=+0$"
+  tooltip_fae_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @fae_tier_icon! фей: $VALUE|=+0$"
+  tooltip_fae_radiant_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @fae_tier_icon! сияющий фей: $VALUE|=+0$"
+  tooltip_celestial_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @celestial_tier_icon! небожитель: $VALUE|=+0$"
+  tooltip_seraphic_celestial_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @celestial_tier_icon! серафический небожитель: $VALUE|=+0$"
+  tooltip_eldar_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @celestial_tier_icon! эльдар: $VALUE|=+0$"
+  tooltip_maiar_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @ainur_tier_icon! майар: $VALUE|=+0$"
+  tooltip_valar_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @ainur_tier_icon! валар: $VALUE|=+0$"
+  tooltip_aratar_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @ainur_tier_icon! аратар: $VALUE|=+0$"
+
+  tooltip_aeluran_prefers_sister_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @aeluran_sister_icon! Сестра Аэлуран: $VALUE|=+0$"
+  tooltip_aeluran_prefers_matron_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @aeluran_matron_icon! Матрона Аэлуран: $VALUE|=+0$"
+  tooltip_aeluran_prefers_matriarch_modifier_bonus_desc:0 "[candidate.GetSheHe|U] — @aeluran_matriarch_icon! Матриарх Аэлуран: $VALUE|=+0$"
+

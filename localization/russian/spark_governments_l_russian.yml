@@ -10,8 +10,8 @@
   aeluran_weavers_vassal_desc:0 "$game_concept_aeluran_weavers_government_desc$"
 
 
-  advanced_tribal_government:0 "Возвышенное Племя"
-  advanced_tribal_government_adjective:0 "Возвышенного Племени"
+  advanced_tribal_government:0 "Возвышенное племя"
+  advanced_tribal_government_adjective:0 "Возвышенного племени"
   advanced_tribal_government_with_icon: "@government_type_feudal! $advanced_tribal_government$"
   advanced_tribal_government_desc:0 "\nЭто народ земли, обладающий всеми преимуществами феодальных обитателей замков, но без их заблудшего высокомерия.\n\nПравительства Возвышенных Племён:\n$EFFECT_LIST_BULLET$Имеют доступ к двум дополнительным уровням всех Племенных построек и могут создавать новые Племенные владения.\n$EFFECT_LIST_BULLET$Сохраняют способность совершать набеги на других.\n$EFFECT_LIST_BULLET$Получают некоторые преимущества, развитые феодальными обществами, такие как королевская власть, мощные законы престолонаследия и создание младших ветвей.\n$EFFECT_LIST_BULLET$Могут нанимать как [GetMaA('warband_ravagers').GetName], так и [GetMaA('warband_vanguard').GetName] в качестве [Concept('men_at_arms', 'профессиональных солдат')|E]."
 

@@ -71,16 +71,16 @@
   elf_default_adherent_plural:0 "Эльфы"
 
   aeluran_weavers:0 "Ткачи Аэлуран"
-  aeluran_weavers_adj:0 "Аэлуранский"
+  aeluran_weavers_adj:0 "Аэлуранство"
 
   aeluran_weavers_old:0 "Древние Аэлуран"
-  aeluran_weavers_old_adj:0 "Древнеаэлуранский"
+  aeluran_weavers_old_adj:0 "Древнеаэлуранство"
 
   aeluran_weavers_desc:0 "Создатели кровных линий и вмешивающиеся в судьбу, Ткачи Аэлуран — могущественная сила в мире. Они выступают в роли свах между самыми влиятельными правителями в неустанном стремлении вывести оптимальных лидеров для эльфийских народов мира."
   aeluran_weavers_adherent:0 "Сестра"
   aeluran_weavers_adherent_plural:0 "Сёстры"
 
-  old_aeluran_weavers_adj:0 "Древнеаэлуранский"
+  old_aeluran_weavers_adj:0 "Древнеаэлуранство"
   old_aeluran_religion:0 "Исконные Аэлуран"
 
   tenet_children_of_the_divine_spark:0 "Дети Божественной Искры"

@@ -1,5 +1,5 @@
 ﻿l_russian:
-  elf_elective_succession_law:0 "Эльфийская Выборная"
+  elf_elective_succession_law:0 "Эльфийские выборы"
   elf_elective_electors:0 "Эльфы-де-юре Вассалы"
   elf_elective_electors_tooltip:0 "Чтобы быть действительным [Concept('elector', 'выборщиком')|E] при Эльфийской Выборной, вассал должен соответствовать всем следующим условиям:\n$EFFECT_LIST_BULLET$Быть эльфом\n$EFFECT_LIST_BULLET$Быть [Concept('de_jure', 'де-юре')|E] вассалом титула"
   elf_elective_candidates:0 "Семья Эльфийского Владыки и Прямые Де-юре Вассалы"

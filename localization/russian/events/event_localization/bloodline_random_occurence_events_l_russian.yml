@@ -1,31 +1,31 @@
 ﻿l_russian:
   bloodline_random.001.title:1 "Мольба о помощи"
-  bloodline_random.001.desc.intro:0 "[advisor.GetTitledFirstName] приближается к вам в вашем кабинете.\n\n«Мой [ROOT.Char.GetLadyLord|U], в наши владения забрёл ребёнок в весьма плачевном состоянии.\n\nПохоже, караван, с которым [orphan.GetSheHe] нанял(а) проезд, был атакован бандитами, и [orphan.GetSheHe] оказался(ась) единственным выжившим(ей).\n\n[orphan.GetSheHe|U] мало что говорит, но [orphan.GetSheHe] крепко сжимал(а) это письмо, адресованное вам»."
+  bloodline_random.001.desc.intro:0 "[advisor.GetTitledFirstName] заходит в ваш кабинет.\n\n«[Select_CString(ROOT.Char.IsFemale, 'Моя госпожа', 'Мой господин')], в наших землях нашли ребёнка —  [Select_CString(orphan.IsFemale, 'бедняжка', 'бедняга')] в весьма плачевном состоянии.\n\nПо всему видно, караван, с которым [orphan.GetSheHe] [Select_CString(orphan.IsFemale, 'следовала', 'следовал')], был разграблен разбойниками. Чудом [Select_CString(orphan.IsFemale, 'уцелела', 'уцелел')] только [orphan.GetSheHe] [Select_CString(orphan.IsFemale, 'одна', 'один')]. \n\nДитя почти не говорит, но [orphan.GetSheHe] крепко [Select_CString(orphan.IsFemale, 'сжимала', 'сжимал')] это письмо, адресованное вам»."
 	bloodline_random.001.read_letter:0 "Дайте мне прочесть его."
 
   bloodline_random.001.desc.orphan:0 ""
 
   bloodline_random.0011.title:0 "Мольба о помощи"
-  bloodline_random.0011.desc:0 "Высокочтимому(ой) [ROOT.Char.GetLadyLord] [ROOT.Char.GetFullName],\n\nМеня зовут [orphan_mother.GetLadyLord] [orphan_mother.GetFullName]. Я глава малого, давно забытого дома. Пишу вам с великой печалью, ибо мои целители говорят, что мне недолго осталось в этом мире.\n\nЭтот ребёнок, моя [orphan.Custom('GetDaughterSon')], — всё, что у меня осталось. [orphan.GetHerHis] отец умер давно, и у [orphan.GetSheHe] больше никого нет. [orphan.GetTitledFirstName] — последний(яя) в нашей династии и должен(на) воспитываться в подобающем благородном эльфийском доме. [orphan.GetSheHe|U] носит в [orphan.GetHerHis] жилах кровь великого дома и обладает пылким духом. Я искренне верю, что [orphan.GetSheHe] будет хорошо служить вам, если вы лишь дадите [orphan.GetHerHim] шанс.\nХотя мы никогда не встречались, умоляю вас... пожалуйста, окажите мне эту последнюю милость.\n\nМоему(ей) любимому(ой) [orphan.GetTitledFirstName], я люблю тебя, всегда любила и буду оберегать тебя вечно."
+  bloodline_random.0011.desc:0 "[ROOT.Char.GetLadyLord|U],\n\nВам пишет [orphan_mother.GetFullName], глава одного из забытых Домов. Пишу вам с великой печалью, ибо мои целители говорят, что мне недолго осталось в этом мире.\n\nЕдинственное, что остаётся от меня в этом мире — [Select_CString(orphan.IsFemale, 'моя', 'мой')] [orphan.Custom('GetDaughterSon')]. [orphan.GetHerHis|U] отец умер давно, и [orphan.GetSheHe] [Select_CString(orphan.IsFemale, 'осталась', 'остался')] совсем [Select_CString(orphan.IsFemale, 'одна', 'один')]. [orphan.GetTitledFirstName] — [Select_CString(orphan.IsFemale, 'последняя обладательница', 'последний носитель')] крови нашей династии и [Select_CString(orphan.IsFemale, 'должна', 'должен')] воспитываться в подобающем благородном эльфийском доме. В [orphan.GetHerHis] жилах течёт кровь древнего рода, а дух пылок и светел. Я искренне верю, что [orphan.GetSheHe] будет хорошо служить вам, если вы дадите [orphan.GetHerHim] шанс.\nХотя мы никогда не встречались, умоляю вас... пожалуйста, окажите мне эту последнюю милость.\n\n[Select_CString(orphan.IsFemale, 'Моя', 'Мой')] [orphan.GetTitledFirstName], я люблю тебя, всегда любила и буду оберегать тебя вечно."
   bloodline_random.0011.a:0 "Понятно..."
 
   bloodline_random.0012.title:0 "Мольба о помощи"
-  bloodline_random.0012.desc:0 "Итак, мой [ROOT.Char.GetLadyLord|U]? Что станется с ребёнком?"
+  bloodline_random.0012.desc:0 "Итак, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой')] [ROOT.Char.GetLadyLord]? Как поступить с ребёнком?"
 
   bloodline_random.0012.a1:0 "Я возьму ребёнка под свою опеку."
-  bloodline_random.0012.a2:0 "Мы найдём для них место при моём дворе."
-  bloodline_random.0012.a3:0 "Эта крепость — не приют для сирот."
+  bloodline_random.0012.a2:0 "Найдите ребенку место при моём дворе."
+  bloodline_random.0012.a3:0 "Мой замок не сиротский приют."
 
 
   bloodline_random.0013.title:0 "Мольба о помощи"
-  bloodline_random.0013.desc:0 "Ребёнок поднимает глаза, сияющие решимостью. «Я вас не подведу, мой [ROOT.Char.GetLadyLord|U]!»"
+  bloodline_random.0013.desc:0 "Ребёнок поднимает глаза, сияющие решимостью. «Я вас не подведу, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой')] [ROOT.Char.GetLadyLord]!»"
   bloodline_random.0013.a1:0 "Я верю тебе!"
 
-  bloodline_event:0 "Встреча с Эльфом Благородной Крови"
-  bloodline_event_desc:0 "Вы встретили эльфа благородного происхождения"
+  bloodline_event:0 "Встреча с эльфом благородной крови"
+  bloodline_event_desc:0 "Вы встретили эльфа благородного происхождения" #
 
 
-  bloodline_random.002.title:1 "Прибытие Чемпиона"
+  bloodline_random.002.title:1 "Прибытие чемпиона"
   bloodline_random.002.desc.intro:0 "Волна возбуждения прокатилась по вашему двору. Ходят слухи, что в городе остановился чемпион турнира.\n\nЭто не кто иной, как [champion.GetFullName], прославленный "
 
   bloodline_random.002.desc.intro.bow:0 "лучник и восходящая звезда #bold стрелковых#! состязаний. [champion.GetSheHe|U] — настоящий фаворит публики."

@@ -129,12 +129,12 @@
   expedition_unique_encounters.00321.refuse:0 "Я не добавлю Тулкаса Астальдо в свой Пантеон"
 
   expedition_unique_encounters.00399.title:0 "Божественное предложение отвергнуто"
-  expedition_unique_encounters.00399.desc:0 "«Ты разочаровал(а) меня, смертный(ая). Возвращайся, когда к тебе вернётся благоразумие»"
+  expedition_unique_encounters.00399.desc:0 "«Ты [Select_CString(ROOT.Char.IsFemale, 'разочаровала', 'разочаровал' )] меня, [Select_CString(ROOT.Char.IsFemale, 'смертная', 'смертный' )]. Возвращайся, когда к тебе вернётся благоразумие»"
   expedition_unique_encounters.00399.ok:0 "Я поразмыслю над этим"
 
   expedition_unique_encounters.00398.title:0 "Божественное предложение принято"
   expedition_unique_encounters.00398.desc:0 "«Мудрый выбор, мой новый последователь. Я буду ждать твоего поклонения.»"
-  expedition_unique_encounters.00398.ok:0 "Хвала!"
+  expedition_unique_encounters.00398.ok:0 "Восславим же новое божество!"
 
   expedition_reward_xp:0 "Все члены отряда получают опыт путешественника"
   expedition_reward_prestige:0 "Все члены отряда получают 100 [Concept('prestige', 'престижа')|E]"

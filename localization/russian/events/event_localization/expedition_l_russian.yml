@@ -136,5 +136,5 @@
   expedition_unique_encounters.00398.desc:0 "«Мудрый выбор, мой новый последователь. Я буду ждать твоего поклонения.»"
   expedition_unique_encounters.00398.ok:0 "Восславим же новое божество!"
 
-  expedition_reward_xp:0 "Все члены отряда получают опыт путешественника"
+  expedition_reward_xp:0 "Все члены отряда получают опыт искателя приключений"
   expedition_reward_prestige:0 "Все члены отряда получают 100 [Concept('prestige', 'престижа')|E]"

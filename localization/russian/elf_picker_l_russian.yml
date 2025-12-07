@@ -1,5 +1,5 @@
 ﻿l_russian:
- elf_finder_elf_count:0 "[Select_CString( LessThan_CFixedPoint( GetGlobalVariable( 'elf_finder_selected_count' ).GetValue, GetGlobalVariable('elf_finder_total_number_of_characters').GetValue ), '#high', '#low' )] [GetGlobalVariable( 'elf_finder_selected_count' ).GetValue|0] #!из [GetGlobalVariable('elf_finder_total_number_of_characters').GetValue|0] эльфов"
+ elf_finder_elf_count:0  "[Select_CString( LessThan_CFixedPoint( GetGlobalVariable( 'elf_finder_selected_count' ).GetValue, GetGlobalVariable('elf_finder_total_number_of_characters').GetValue ), '#high', '#low' )] [GetGlobalVariable( 'elf_finder_selected_count' ).GetValue|0] #!of [GetGlobalVariable('elf_finder_total_number_of_characters').GetValue|0] Elves"
 
  elf_filter_title_rank_crown:0 "[Character.Custom('Title_Rank_Icon')]"
  elf_filter_title_icon_empire:0 "@empire_icon!"
@@ -15,9 +15,9 @@
 
  selected_elf_filter_diplomacy_range:0 "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_diplo_range' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_diplo_range' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_diplo_range' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_diplomacy_range_inside', 'selected_elf_filter_diplomacy_range_outside' ), 'selected_elf_filter_diplomacy_range_both' )]"
 
- selected_elf_filter_diplomacy_range_inside:0 "В пределах дипломатической досягаемости"
- selected_elf_filter_diplomacy_range_outside:0 "За пределами дипломатической досягаемости"
- selected_elf_filter_diplomacy_range_both:0 "Внутри и за пределами дипломатической досягаемости"
+ selected_elf_filter_diplomacy_range_inside:0 "В пределах дипломатического радиуса"
+ selected_elf_filter_diplomacy_range_outside:0 "За пределами дипломатического радиуса"
+ selected_elf_filter_diplomacy_range_both:0 "Внутри и за пределами дипломатического радиуса"
 
  selected_elf_filter_is_courtier:0 "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_courtier' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_courtier' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_is_courtier' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_is_courtier_yes', 'selected_elf_filter_is_courtier_no' ), 'selected_elf_filter_is_courtier_both' )]"
 
@@ -34,7 +34,7 @@
  selected_elf_filter_elf_artifacts:0 "[SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_artifacts' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_elf_artifacts_holder', 'selected_elf_filter_elf_artifacts_both' )]"
 
  selected_elf_filter_elf_artifacts_holder:0 "Владельцы уникальных эльфийских артефактов"
- selected_elf_filter_elf_artifacts_both:0 "Владельцы артефактов и не владельцы"
+ selected_elf_filter_elf_artifacts_both:0 "Владельцы и не владельцы артефактов"
 
  selected_elf_filter_can_marry:0 "[SelectLocalization(Or(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_can_marry' ).GetValue, '(CFixedPoint)1' ) , EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_can_marry' ).GetValue, '(CFixedPoint)2' )), SelectLocalization(EqualTo_CFixedPoint( GetGlobalVariable( 'elf_filter_can_marry' ).GetValue, '(CFixedPoint)1' ), 'selected_elf_filter_can_marry_yes', 'selected_elf_filter_can_marry_no' ), 'selected_elf_filter_can_marry_both' )]"
 

@@ -1,14 +1,14 @@
 ﻿l_russian:
  RULER_DESIGNER_RACE_LIST_LABEL:0 "Раса"
- RULER_DESIGNER_TOGGLE_NUDITY:0 "Переключить наготу"
+ RULER_DESIGNER_TOGGLE_NUDITY:0 "Вкл/Выкл обнажённую натуру"
 
- PORTRAIT_MODIFIER_visual_traits_elves:0 "Эльфийские Уши"
- PORTRAIT_MODIFIER_visual_traits_elves_elf_1_transform:0 "Эльфийские Уши"
- PORTRAIT_MODIFIER_visual_traits_elves_elf_2_transform:0 "Фейские Уши"
- PORTRAIT_MODIFIER_visual_traits_elves_elf_3_transform:0 "Небесные Уши"
- PORTRAIT_MODIFIER_visual_traits_elves_human:0 "Человеческие Уши"
+ PORTRAIT_MODIFIER_visual_traits_elves:0 "Уши эльфа"
+ PORTRAIT_MODIFIER_visual_traits_elves_elf_1_transform:0 "Эльфийские уши"
+ PORTRAIT_MODIFIER_visual_traits_elves_elf_2_transform:0 "Фейские уши"
+ PORTRAIT_MODIFIER_visual_traits_elves_elf_3_transform:0 "Небесные уши"
+ PORTRAIT_MODIFIER_visual_traits_elves_human:0 "Человеческие уши"
 
- COA_DESIGNER_CATEGORY_elf:0 "Эльфийская династия"
+ COA_DESIGNER_CATEGORY_elf:0 "Elf Destiny"
  
 ## THESE ARENT USED
 #  wolf_1:0 "Wolf 1"

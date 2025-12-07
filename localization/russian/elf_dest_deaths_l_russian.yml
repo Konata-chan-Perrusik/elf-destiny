@@ -1,4 +1,4 @@
 ﻿l_russian:
-  death_crumbled:0 "Рассыпался(ась) в пыль и камешки"
-  spirit_faded:0 "Духовная проекция рассеялась"
-  killed_by_direwolf:0 "Умер(ла) от ран, нанесённых лютоволком"
+  death_crumbled:0 "[Select_CString(CHARACTER.IsFemale, 'Обратилась', 'Обратился' )] в прах и пыль"
+  spirit_faded:0 "Проекция духа рассеялась"
+  killed_by_direwolf:0 "[Select_CString(CHARACTER.IsFemale, 'Погибла', 'Погиб' )] от ран, нанесённых лютоволком"

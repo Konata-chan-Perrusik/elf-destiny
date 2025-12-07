@@ -8,6 +8,6 @@
 #  game_concept_ascension:0 "ascension"
 #  game_concept_ascension_desc:1 "The solidifying of spark in a being's soul, allowing them to break through into a higher state of existence.  \n \nAchieving such a feat is not easy. The great Elf bloodlines pursue this power through grand ritual and meticulous breeding."
  game_concept_divine_spark:0 "Божественная Искра"
- game_concept_divine_spark_desc:1 "Мощнейший источник жизненной энергии для связанных миров.\n\nБожественная Искра — источник всей жизни. Она дарует великую силу верным, а верные должны ответить на её дар."
- game_concept_spark:0 "искра"
+ game_concept_divine_spark_desc:1 "Всемогущий источник жизненной энергии для связанных миров.  \n \n Божественная Искра — источник всей жизни. Она дарует великую силу верным, а верные должны воздавать за её дар."
+ game_concept_spark:0 "Искра"
  game_concept_spark_desc:1 "Магическая божественная жизненная энергия, дарованная Божественной Искрой."

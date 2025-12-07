@@ -1,7 +1,7 @@
 ﻿l_russian:
   # Universities
   building_type_deep_wood_sanctum_university:0 "Святилище Глубокого Леса"
-  building_type_deep_wood_sanctum_university_desc:0 "$building_type_generic_university_desc$\n\nСвятилище Глубокого Леса — это место, где формируются сёстры Ткачей Аэлурана. Его двери открыты только для многообещающих девушек; здесь собираются самые светлые умы королевства, чтобы изучать тайные искусства."
+  building_type_deep_wood_sanctum_university_desc:0 "$building_type_generic_university_desc$\n\nСвятилище Глубокого Леса — это место, где формируются сёстры Аэлуранских Ткачей. Его двери открыты только для многообещающих девушек; здесь собираются самые светлые умы королевства, чтобы изучать тайные искусства."
   building_deep_wood_sanctum_university:0 "$building_type_deep_wood_sanctum_university$"
   building_deep_wood_sanctum_university_desc:0 "$building_type_deep_wood_sanctum_university_desc$"
 

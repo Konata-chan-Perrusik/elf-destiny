@@ -2,29 +2,29 @@
  valar_vana:0 "Вала Красоты и Плодородия"
  valar_tulkas_astaldo:0 "Вала Войны и Соперничества"
 
- nick_ryumplstilkin:0 "Рюмпльштильскин"
- nick_ryumplstilkin_desc:1 "Хотя происхождение этого прозвища неизвестно, достоверно то, что какую бы сделку ни заключали с [CharYouHerHim(CHARACTER)], Эйман всегда остаётся в выигрыше и обычно богатеет."
+ nick_ryumplstilkin:0 "Рюмпльштильцкин"
+ nick_ryumplstilkin_desc:1 "Хотя происхождение этого имени неизвестно, достоверно известно одно: какую бы сделку ни заключали с [Select_CString(CHARACTER.IsLocalPlayer, 'вами', Select_CString(CHARACTER.IsFemale, 'ней', 'ним' ))], Эйман всегда оказывается в выигрыше и обычно богатеет."
 
  nick_the_golden_queen:0 "Золотая Королева"
- nick_the_golden_queen_desc:1 "Рождённая в гордом и древнем роду, стремление [CharYourHerHis(CHARACTER)] вернуть как престиж, так и богатство своей крови заставило других называть [CharYouHerHim(CHARACTER)] этим именем."
+ nick_the_golden_queen_desc:1 "Рождённая в гордом и древнем роду, стремление свой вернуть и престиж, и богатство своей кровной линии заставило других называть [Select_CString(CHARACTER.IsLocalPlayer, 'вашим', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))] этим именем."
 
  nick_the_silver_dragon:0 "Серебряный Дракон"
- nick_the_silver_dragon_desc:1 "Прозванный 'Серебряным' за [CharYourHerHis(CHARACTER)] волосы и 'Драконом' за [CharYourHerHis(CHARACTER)] присутствие, [CHARACTER.GetShortUINameNoTooltipNoFormat] одновременно очарователен при дворе и внушителен на поле боя."
+ nick_the_silver_dragon_desc:1 "Названная «Серебряной» за [Select_CString(CHARACTER.IsLocalPlayer, 'ваши', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))] волосы и «Драконом» за [Select_CString(CHARACTER.IsLocalPlayer, 'вашим', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))] присутствие, [CHARACTER.GetShortUINameNoTooltipNoFormat] одинаково пленительна при дворе и страшна на поле боя."
 
  nick_the_mad_mage:0 "Безумный Маг"
- nick_the_mad_mage_desc:1 "Люди ходят вокруг [CHARACTER.GetShortUINameNoTooltipNoFormat] по струнке — возможно, справедливо, а возможно и нет, но зачем рисковать и оскорблять безум[CHARACTER.GetWomanMan]?"
+ nick_the_mad_mage_desc:1 "Люди ходят вокруг [CHARACTER.GetShortUINameNoTooltipNoFormat] на цыпочках — возможно, справедливо, а возможно, и нет, но зачем рисковать, оскорбляя безумца?"
 
  nick_the_enchantress:0 "Чародейка"
- nick_the_enchantress_desc:1 "С [CharYourHerHis(CHARACTER)] серебряными волосами и пленительной ауроой, [CharYourHerHis(CHARACTER)] взгляд пленяет всех, кто встречается с [CharYourHerHis(CHARACTER)], а [CharYourHerHis(CHARACTER)] обаяние и тонкая магия позволяют [CHARACTER.GetShortUINameNoTooltipNoFormat] манипулировать даже самыми могущественными правителями."
+ nick_the_enchantress_desc:1 "С серебряными волосами и захватывающим присутствием, [Select_CString(CHARACTER.IsLocalPlayer, 'ваш', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))] взгляд опутывает всех, кто встречает [Select_CString(CHARACTER.IsLocalPlayer, 'вас', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))], в то время как [Select_CString(CHARACTER.IsLocalPlayer, 'ваше', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))] обаяние и тонкая магия позволяют [CHARACTER.GetShortUINameNoTooltipNoFormat] манипулировать даже самыми могущественными правителями."
 
  nick_the_black_dragon:0 "Чёрный Дракон"
- nick_the_black_dragon_desc:1 "Прозванный 'Чёрным' как изгнанный бастард [CharYourHerHis(CHARACTER)] дома и 'Драконом' за [CharYourHerHis(CHARACTER)] величественное и грозное присутствие, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] полон решимости отомстить [CharYourHerHis(CHARACTER)] соперникам и уничтожить тех, кто встанет на пути." 
- 
- nick_the_druid:0 "Друид"
- nick_the_druid_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U], происходящий из таинственного рода необычной силы, [CharAreIs(CHARACTER)] известен исцелением и яростной защитой лесов. [CHARACTER.GetShortUINamePossessive|U] непоколебимая связь с природой и скрытая сила принесли [CHARACTER.GetShortUINameNoTooltipNoFormat] прозвище '[CHARACTER.GetNicknameNoTooltip]'."
+ nick_the_black_dragon_desc:1 "Названный «Чёрным» как изгнанный бастард своего дома и «Драконом» за [Select_CString(CHARACTER.IsLocalPlayer, 'ваше', Select_CString(CHARACTER.IsFemale, 'ее', 'его' ))] великое и ужасное присутствие, [CHARACTER.GetShortUINameNoTooltipNoFormat] полон решимости отомстить своим соперникам и уничтожить тех, кто встанет на пути."
 
- nick_wolfslayer:0 "Волкобой"
- nick_wolfslayer_desc:1 "[CHARACTER.GetFirstNameOrMe|U] убил ужасного лютоволка в бою."
+ nick_the_druid:0 "Друид"
+ nick_the_druid_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U], происходящий из загадочной линии необычайной силы, известен исцелением и яростной защитой лесов. [CHARACTER.GetShortUINamePossessive|U] непоколебимая связь с природой и скрытая сила принесли [CHARACTER.GetShortUINameNoTooltipNoFormat] титул «[CHARACTER.GetNicknameNoTooltip]»."
+
+ nick_wolfslayer:0 "Убийца Лютоволков"
+ nick_wolfslayer_desc:1 "[CHARACTER.GetFirstNameOrMe|U] убил грозного лютоволка в бою."
 
  nick_the_kraken:0 "Кракен Запада"
- nick_the_kraken_desc:1 "Говорят, что [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] обещанным Принцем дома Лормелис, рождённым в день великого циклона."
+ nick_the_kraken_desc:1 "Говорят, что [CHARACTER.GetShortUINameNoTooltipNoFormat] обещанный Принц Дома Лормелис, рождённый в день великого циклона."

@@ -1,34 +1,34 @@
 ﻿l_russian:
  name_list_elf:0 "Афар"
  ############################################################
- # Male Names
+ # Мужские имена
  ############################################################
  Aelrond:0 "Аэлронд"
- Alderon:0 "Алдерон"
+ Alderon:0 "Альдерон"
  Alarion:0 "Аларион"
  Arandor:0 "Арандор"
  Arandur:0 "Арандур"
  Arannis:0 "Араннис"
  Arathorn:0 "Араторн"
  Caelion:0 "Каэлион"
- Caladon:0 "Саладон"
+ Caladon:0 "Каладон"
  Calenor:0 "Каленор"
  Calenorin:0 "Каленорин"
  Eolendil:0 "Эолендиль"
- Eraelas:0 "Ираэлас"
- Erendil:0 "Эрендил"
+ Eraelas:0 "Эраэлас"
+ Erendil:0 "Эрендиль"
  Erendor:0 "Эрендор"
  Erevan:0 "Эреван"
  Erevandil:0 "Эревандиль"
- Eldrion:0 "Элдрион"
+ Eldrion:0 "Эльдрион"
  Elendir:0 "Элендир"
  Elensar:0 "Эленсар"
  Elendar:0 "Элендар"
  Elorian:0 "Элориан"
  Faelion:0 "Фаэлион"
- Faelmir:0 "Фаэлмир"
+ Faelmir:0 "Фаэльмир"
  Felorian:0 "Фелориан"
- Finreth:0 "Финрет"
+ Finreth:0 "Финрэт"
  Galador:0 "Галадор"
  Galadrim:0 "Галадрим"
  Galandil:0 "Галандиль"
@@ -48,64 +48,62 @@
  Thalorin:0 "Талорин"
  Valendor:0 "Валендор"
  ############################################################
- # Female Names
+ # Женские имена
  ############################################################
- Aeliana:0 "Аэлина"
+ Aeliana:0 "Аэлиана"
  Alandria:0 "Аландрия"
  Aradia:0 "Арадия"
- Aranelle:0 "Араннель"
+ Aranelle:0 "Аранелле"
  Aravenna:0 "Аравенна"
  Arista:0 "Ариста"
- Arwenelle:0 "Арвенэлль"
+ Arwenelle:0 "Арвенелле"
  Arwenia:0 "Арвения"
- Calanthe:0 "Каланте"
- Calindra:0 "Калинда"
- Calitha:0 "Цалита"
- Celestia:0 "Целестия"
- Celestine:0 "Целестина"
+ Calanthe:0 "Каланит"
+ Calindra:0 "Калиндра"
+ Calitha:0 "Калита"
+ Celestia:0 "Селестия"
+ Celestine:0 "Селестина"
  Elandra:0 "Эландра"
-#  Elara:0 "Elara" # already defined in base game
+#  Elara:0 "Элара" # уже определено в базовой игре
  Elenna:0 "Эленна"
  Elysara:0 "Элисара"
- Elysia:0 "Элизия"
- Elowyn:0 "Эловин"
- Elowynn:0 "Эловинна"
+ Elysia:0 "Элисия"
+ Elowyn:0 "Элоуин"
+ Elowynn:0 "Элоуинн"
  Erendra:0 "Эрендра"
  Erina:0 "Эрина"
  Evania:0 "Эвания"
  Evandriel:0 "Эвандриэль"
- Evanya:0 "Эвана"
+ Evanya:0 "Эвания"
  Galadria:0 "Галадрия"
  Galanoriel:0 "Галанориэль"
  Galenia:0 "Галения"
  Galanwen:0 "Галанвен"
  Isilwen:0 "Исильвен"
-#  Isolde:0 "Isolde" # already defined in base game
- Liraelle:0 "Лираэлль"
+#  Isolde:0 "Изольда" # уже определено в базовой игре
+ Liraelle:0 "Лиразель"
  Melantha:0 "Меланта"
  Meliantha:0 "Мелианта"
  Miriel:0 "Мириэль"
  Nariel:0 "Нариэль"
  Nivara:0 "Нивара"
- Seraphina:0 "Серафима"
+ Seraphina:0 "Серафина"
  Thalassa:0 "Таласса"
- Thalora:0 "Талора"
-#  Valeria:0 "Valeria" # already defined in base game
+ Thalora:0 "Таллора"
+#  Valeria:0 "Валерия" # уже определено в базовой игре
  Valoria:0 "Валория"
 
-
  ############################################################
- # Valar Names
+ # Имена Валар
  ############################################################
 
  tulkas_astaldo:0 "Тулкас Астальдо"
 
-
- # Sea Elf Names
+ # Имена морских эльфов
  Maelor:0 "Маэлор"
  Aelor:0 "Аэлор"
- Lyria:0 "Лурия"
- Vaelan:0 "Ваилан"
+ Lyria:0 "Лирия"
+ Vaelan:0 "Ваэлан"
  Kaelen:0 "Каэлен"
  Maxyron:0 "Максирон"
- Jacarion:0 "Джасарион"
+ Jacarion:0 "Джакарион"

@@ -1,78 +1,78 @@
 ﻿l_russian:
   #aeluran_matchmaking
-  activity_aeluran_matchmaking:0 "Сватовство Аэрулан"
+  activity_aeluran_matchmaking:0 "Аэруланское сватовство"
   aeluran_matchmaking_phase_desc:0 "Знакомство с кандидатами"
-  activity_aeluran_matchmaking_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Сватовство Аэрулан"
-  activity_aeluran_matchmaking_desc:4 "Орден Аэрулан требует, чтобы эльфийские лорды находили подходящие браки. По обычаю им позволяют помогать в этом"
-  activity_aeluran_matchmaking_owner:0 "Красная сестра"
+  activity_aeluran_matchmaking_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Аэруланское сватовство"
+  activity_aeluran_matchmaking_desc:4 "Аэлуранский орден требует, чтобы эльфийские лорды находили подходящие браки. По обычаю, орден помогает им в этом"
+  activity_aeluran_matchmaking_owner:0 "Алая сестра"
   
 
   not_valid_matchmaking_location:0 "Это графство не является столицей вашего сюзерена."
   activity_invite_rule_liege_and_liege_family:0 "Сюзерен и его семья"
   activity_invite_rule_liege_and_liege_family_no_default:0 "$activity_invite_rule_liege_and_liege_family$"
 
-  activity_window_character_aeluran_adviser:0 "Сваха Аэрулан"
+  activity_window_character_aeluran_adviser:0 "Аэруланская сваха"
   activity_window_character_match_left:0 "Невеста"
   activity_window_character_match_right:0 "Жених"
   activity_window_character_match_recipient_liege:0 "[host.liege.GetName]"
 
-  activity_aeluran_matchmaking_conclusion_desc:0 "[GetActivityType('activity_wedding').GetTextIcon] Пара составлена!"
+  activity_aeluran_matchmaking_conclusion_desc:0 "[GetActivityType('activity_wedding').GetTextIcon] Союз совершён!"
 
   ### EVENTS
-  aeluran_matchmaking.001.title:0 "Нужно составить пару"
-  aeluran_matchmaking.001.desc.lord:0 "Вы устали от настойчивых приставаний Аэрулан с предложением подчиниться их сватовству, но, возможно, вы были слишком поспешны, требуя прекратить просьбы вовсе.\n\nВы разыскиваете своего [Concept('aeluran_advisor', 'советника Аэрулан')|E] [aeluran_adviser.GetName], чтобы узнать, поможет ли [Concept('aeluran_order', 'орден Аэрулан')|E] снова вашей семье найти подходящих эльфов, которых можно породнить с вашей [Concept('dynasty', 'династией')|E].\n\n«Вы были мудры, что пришли ко мне, мой [ROOT.Char.GetLadyLord], — говорит она, — мы оставим ваше прежнее упрямство. Мой орден возобновит наши усилия по сватовству. Дайте нам немного времени, и я сообщу вам, когда мои Сестры закончат отбор кандидатов в супруги»"
-  aeluran_matchmaking.001.desc.family:0 "Вы думаете, что [recipient.GetName] давно пора остепениться и выполнить [recipient.GetHerHis] долг по обеспечению будущего вашей [Concept('dynasty', 'династии')|E].\n\nВы разыскиваете своего [Concept('aeluran_advisor', 'советника Аэрулан')|E] [aeluran_adviser.GetName], чтобы узнать, поможет ли [Concept('aeluran_order', 'орден Аэрулан')|E] в этом деле.\n\n«Вы были мудры, что пришли ко мне с этим вопросом, мой [ROOT.Char.GetLadyLord], — говорит она, — Мой орден, конечно, поможет в этом деле. Мы найдем идеально подходящего супруга для [recipient.GetFirstName]. Дайте нам немного времени, и я сообщу вам, когда мои Сестры закончат отбор кандидатов»"
+  aeluran_matchmaking.001.title:0 "Пара, которой суждено - быть."
+  aeluran_matchmaking.001.desc.lord:0 "Вы устали от настойчивых приставаний Аэрулан с предложением подчиниться их сватовству, но, возможно, вы были слишком поспешны, требуя прекратить просьбы вовсе.\n\nВы разыскиваете своего [Concept('aeluran_advisor', 'аэруланского советника')|E] [aeluran_adviser.GetName], чтобы узнать, поможет ли [Concept('aeluran_order', 'аэруланский орден')|E] снова вашей семье найти подходящих эльфов, которых можно породнить с вашей [Concept('dynasty', 'династией')|E].\n\n«Вы были мудры, что пришли ко мне, мой [ROOT.Char.GetLadyLord], — говорит она, — мы оставим ваше прежнее упрямство. Мой орден возобновит наши усилия по поиску подходящего партнера. Дайте нам немного времени, и я сообщу вам, когда мои Сестры закончат отбор кандидатов»"
+  aeluran_matchmaking.001.desc.family:0 "Вы думаете, что [recipient.GetName] давно пора остепениться и выполнить [recipient.GetHerHis] долг по обеспечению будущего вашей [Concept('dynasty', 'династии')|E].\n\nВы разыскиваете своего [Concept('aeluran_advisor', 'аэруланского советника')|E] [aeluran_adviser.GetName], чтобы узнать, поможет ли [Concept('aeluran_order', 'орден')|E] в этом деле.\n\n«Вы были мудры, что пришли ко мне с этим вопросом, мой [ROOT.Char.GetLadyLord], — говорит она, — Мой орден, конечно, поможет в этом деле. Мы найдем идеально подходящего партнера для [recipient.GetFirstName]. Дайте нам немного времени, и я сообщу вам, когда мои Сестры закончат отбор кандидатов»"
   aeluran_matchmaking.001.ok:0 "Благодарю вас, Сестра [aeluran_adviser.GetFirstName]"
   aeluran_matchmaking.001.nvm:0 "Вообще-то я передумал"
 
-  aeluran_matchmaking.101.title:0 "Род должен продолжаться"
+  aeluran_matchmaking.101.title:0 "Пара, которой суждено - быть."
   aeluran_matchmaking.101.desc:0 "Ваше последнее заседание совета только что закончилось, но прежде чем вы успеваете направиться в залы, ваш советник [host.GetName] загоняет вас в угол в палате. \n\n«Мой [ROOT.Char.GetLadyLord], минутку вашего времени для более #italic sensitive#! matter.\n\n"
 
-  aeluran_matchmaking.101.desc.lord:0 "Я говорю о престолонаследии. Вам давно пора найти пару и укрепить свою кровную линию. Как вам известно, эльфийским лордам подобает обращаться за помощью к [Concept('aeluran_order', 'ордену Аэрулан')|E] в столь важном решении.\n\nЯ связывалась с моими Сестрами из ордена, и мы нашли несколько весьма многообещающих кандидатов. Пойдемте, давайте встретимся с вашими потенциальными женихами.\""
+  aeluran_matchmaking.101.desc.lord:0 "Я говорю о престолонаследии. Вам давно пора найти пару и укрепить свою родословную. Как вам известно, эльфийским лордам подобает обращаться за помощью к [Concept('aeluran_order', 'аэруланскому ордену')|E] в столь важном решении.\n\nЯ связывалась с моими Сестрами из ордена, и мы нашли несколько весьма многообещающих кандидатов. Пойдемте, они горят желанием встречи с ваши.\""
 
-  aeluran_matchmaking.101.desc.heir:0 "Ваш [Concept('heir', 'наследник')|E] [match_recipient.GetFirstName] остается неженатым и должен найти пару, чтобы укрепить вашу кровную линию. Как вам известно, эльфийским лордам подобает обращаться за помощью к [Concept('aeluran_order', 'ордену Аэрулан')|E] в столь важном решении.\n\nЯ связывалась с моими Сестрами из ордена, и мы нашли несколько весьма многообещающих кандидатов. Пойдемте, давайте встретимся с потенциальными женихами вашего [Concept('heir', 'наследника')|E].\""
+  aeluran_matchmaking.101.desc.heir:0 "Ваш [Concept('heir', 'наследник')|E] [match_recipient.GetFirstName] остается безбрачным и должен найти пару, чтобы укрепить вашу династию. Как вам известно, эльфийским лордам подобает обращаться за помощью к [Concept('aeluran_order', 'аэруланскому ордену')|E] в столь важном решении.\n\nЯ связывалась с моими Сестрами из ордена, и мы нашли несколько весьма многообещающих кандидатов. Пойдемте, я расскажу о каждом кандидате для вашего [Concept('heir', 'наследника')|E].\""
 
   aeluran_matchmaking.101.desc.fallback:0 "Я проконсультировалась с орденом, как вы просили, и мы подобрали подходящих кандидатов для [match_recipient.GetFirstName] здесь. Пойдемте, давайте встретимся с [match_recipient.GetHerHis] потенциальными парами.\""
 
   aeluran_matchmaking.101.ok:0 "Как пожелаете, Леди [host.GetFirstName]."
   aeluran_matchmaking.101.snooze:0 "Мне не нужны советы ордена в настоящее время."
-  aeluran_matchmaking.101.never_again:0 "Я один решаю судьбу моего рода, никогда больше не беспокойте меня этим."
+  aeluran_matchmaking.101.never_again:0 "Я один решаю судьбу моего рода, никогда больше не беспокойте меня об этом."
 
-  aeluran_accepts_decision:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] #P принимает#! ваше решение"
-  aeluran_challenges_decision:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] #N оспаривает#! ваше решение"
-  matchmaking_postponed:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] не будет искать пару для вас или вашего [Concept('heir', 'наследника')|E] в течение 5 лет"
-  matchmaking_postponed_after_presented:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] не будет искать пару для вас или вашего [Concept('heir', 'наследника')|E] в течение 5 лет"
-  matchmaking_postponed_permanently:0 "Ваш [Concept('aeluran_advisor', 'советник Аэрулан')|E] никогда не будет искать пару для вас или вашего [Concept('heir', 'наследника')|E]"
+  aeluran_accepts_decision:0 "Ваш [Concept('aeluran_advisor', 'аэруланский советник')|E] #P принимает#! ваше решение"
+  aeluran_challenges_decision:0 "Ваш [Concept('aeluran_advisor', 'аэруланский советник')|E] #N оспаривает#! ваше решение"
+  matchmaking_postponed:0 "Ваш [Concept('aeluran_advisor', 'аэруланский советник')|E] не будет искать пару для вас или вашего [Concept('heir', 'наследника')|E] в течение 5 лет"
+  matchmaking_postponed_after_presented:0 "Ваш [Concept('aeluran_advisor', 'аэруланский советник')|E] не будет искать пару для вас или вашего [Concept('heir', 'наследника')|E] в течение 5 лет"
+  matchmaking_postponed_permanently:0 "Ваш [Concept('aeluran_advisor', 'аэруланский советник')|E] никогда не будет искать пару для вас или вашего [Concept('heir', 'наследника')|E]"
 
-  aeluran_matchmaking.1011.title:0 "Род должен продолжаться - Отказ оспорен"
-  aeluran_matchmaking.1011.desc:0 "С ясным взглядом и хмурым лицом [host.GetName] говорит: «Боюсь, я должна настоять, мой [ROOT.Char.GetLadyLord]. Это ваша обязанность как эльфийского лорда подчиниться...»\n\nПока [host.GetFirstName] продолжает говорить со все возрастающим тоном; вы чувствуете, как ее [Concept('spark_aura', 'аура Искры')|E] давит на вас, пытаясь подавить и подчинить вашу собственную.\n\nЯсно, что простого отказа будет недостаточно. Вам придется победить [host.GetHerHim] в [Concept('battle_of_wills', 'битве воль')|E]"
+  aeluran_matchmaking.1011.title:0 "Пара, которой суждено - быть. Отказ оспорен"
+  aeluran_matchmaking.1011.desc:0 "С ясным взглядом и хмурым лицом [host.GetName] говорит: «Боюсь, я должна настоять, мой [ROOT.Char.GetLadyLord]. Это ваша обязанность как эльфийского лорда подчиниться...»\n\nПока [host.GetFirstName] продолжает говорить с все возрастающим тоном; вы чувствуете, как её [Concept('spark_aura', 'свет Искры')|E] давит на вас, пытаясь подавить и подчинить вашу собственную.\n\nЯсно, что простого отказа будет недостаточно. Вам придется победить [host.GetHerHim] в [Concept('battle_of_wills', 'битве воль')|E]"
   aeluran_matchmaking.1011.learning:0 "Сопротивляться чистой волей."
   aeluran_matchmaking.1011.intrigue_diplo:0 "Сопротивляться с помощью обаяния."
 
-  denied_aeluran_matchmaking_candidates:0 "Отклоненные кандидаты сватовства Аэрулан"
-  refused_aeluran_matchmaking:0 "Отказ от сватовства Аэрулан"
+  denied_aeluran_matchmaking_candidates:0 "Отклоненные кандидаты аэруланского сватовства"
+  refused_aeluran_matchmaking:0 "Отказ от аэруланского сватовства"
 
   lord_defeats_advisor_matchmaking_battle_of_wills:0 "[host.GetName] принимает ваше решение отказаться от сватовства"
   lord_loses_to_advisor_matchmaking_battle_of_wills:0 "[host.GetName] подавляет вашу волю и навязывает вам сватовство"
 
-  aeluran_matchmaking.1012.title:0 "Род должен продолжаться - Победа в битве воль"
-  aeluran_matchmaking.1012.desc:0 "С последним усилием ваша [Concept('spark_aura', 'аура Искры')|E] охватывает ауру [host.GetNamePossessive], и ее воля наконец ломается. Вы видите, как жар покидает [host.GetHerHis] глаза, и [host.GetSheHe] робко говорит: «Как скажете, мой [ROOT.Char.GetLadyLord], мы отложим этот вопрос на другой день»"
+  aeluran_matchmaking.1012.title:0 "Пара, которой суждено - быть. Победа в битве воль"
+  aeluran_matchmaking.1012.desc:0 "С последним усилием ваш [Concept('spark_aura', 'свет Искры')|E] охватывает ауру [host.GetNamePossessive], и её воля наконец ломается. Вы видите, как жар покидает [host.GetHerHis] глаза, и [host.GetSheHe] робко говорит: «Как скажете, мой [ROOT.Char.GetLadyLord], мы отложим этот вопрос на другой день»"
   aeluran_matchmaking.1012.ok:0 "Воистину так"
 
-  aeluran_matchmaking.1013.title:0 "Род должен продолжаться - Поражение в битве Воль"
-  aeluran_matchmaking.1013.desc:0 "Вы усердно боретесь, но как ни старайтесь, воля [host.GetNamePossessive] остается крепкой, как железо. Как будто это было неизбежностью, ваша [Concept('spark_aura', 'аура Искры')|E] поглощается [host.GetFirstNamePossessive], и последние остатки вашего сопротивления угасают.\n\nС явной усмешкой на лице [host.GetFirstName] говорит: «Мой [ROOT.Char.GetLadyLord] сегодня не в себе. Отправляйтесь в свои покои вздремнуть, и мы встретимся снова через несколько дней для сватовства.»"
-  aeluran_matchmaking.1013.ok:0 "Д-Да, Сестра [host.GetFirstNameNoTooltip]"
+  aeluran_matchmaking.1013.title:0 "Пара, которой суждено - быть. Поражение в битве воли"
+  aeluran_matchmaking.1013.desc:0 "Вы усердно боритесь, но как ни старайся, воля [host.GetNamePossessive] остается крепкой, как железо. Как будто это было неизбежностью, ваш [Concept('spark_aura', 'свет Искры')|E] поглощается [host.GetFirstNamePossessive], и последние остатки вашего сопротивления угасают.\n\nС явной усмешкой на лице [host.GetFirstName] говорит: «Мой [ROOT.Char.GetLadyLord] сегодня не в себе. Отправляйтесь в свои покои вздремнуть, и мы встретимся снова через несколько дней для сватовства.»"
+  aeluran_matchmaking.1013.ok:0 "Д-Да, сестра [host.GetFirstNameNoTooltip]"
 
-  aeluran_matchmaking.1014.title:0 "Род должен продолжаться"
-  aeluran_matchmaking.1014.desc.snooze:0 "«Очень хорошо, мой [ROOT.Char.GetLadyLord]. Орден даст вам еще пять лет, чтобы найти пару самостоятельно, но мы не можем откладывать дольше этого.»"
-  aeluran_matchmaking.1014.desc.permanent:0 "«Очень хорошо, мой [ROOT.Char.GetLadyLord]. [Concept('aeluran_order', 'орден Аэрулан')|E] больше не будет настаивать на сватовстве для вас и вашей семьи. Ради блага эльфийских народов мы все же призываем вас делать это по своей воле»"
+  aeluran_matchmaking.1014.title:0 "Пара, которой суждено - быть."
+  aeluran_matchmaking.1014.desc.snooze:0 "«Очень хорошо, мой [ROOT.Char.GetLadyLord]. Орден даст вам еще пять лет, чтобы найти пару самостоятельно, но вы не можете откладывать больше отведенного времени.»"
+  aeluran_matchmaking.1014.desc.permanent:0 "«Очень хорошо, мой [ROOT.Char.GetLadyLord]. [Concept('aeluran_order', 'Аэруланский орден')|E] больше не будет настаивать на сватовстве для вас и вашей семьи. Ради блага эльфийских народов мы все же призываем вас делать это по своей воле»"
   aeluran_matchmaking.1014.ok:0 "Наконец-то можно вздохнуть свободно"
 
-  aeluran_matchmaking.0021.title:0 "Обзор досье женихов"
-  aeluran_matchmaking.0021.desc:0 "\n#zero_value «Мой [ROOT.Char.GetLadyLord|U], благодарю за визит. Орден и я собрали коллекцию кандидатов, которых мы считаем#!"
-  aeluran_matchmaking.0021.desc.lord:0 "#zero_value подходящими для человека вашего положения. Пойдемте, давайте рассмотрим ваши варианты.»#!" 
-  aeluran_matchmaking.0021.desc.heir:0 "#zero_value подходящими для вашего [Concept('heir', 'наследника')|E]. Пойдемте, давайте рассмотрим варианты.»#!"
-  aeluran_matchmaking.0021.desc.stats:0 "\n\n#tooltip_heading Качество женихов -#! [SCOPE.Custom('AeluranMatchmakingQualityDesc')]\n$EFFECT_LIST_BULLET$#positive_value +[SCOPE.ScriptValue('matchmaking_respect_bonus_value')]#! | #tooltip_subheading Уважение Аэрулан -#! [SCOPE.Custom('AeluranMatchmakingRespectScore')] #emphasis ([GetPlayer.MakeScope.ScriptValue('aeluran_respect_score_actual')|2+=]/месяц)#![SCOPE.Custom('AeluranMatchmakingGrantedHook')][SCOPE.Custom('AeluranMatchmakingGiftedCrystal')]\n\n#tooltip_heading Разрешенный выбор -#! [SCOPE.Custom('AeluranMatchmakingQuantityDescriptor')|0+]\n$EFFECT_LIST_BULLET$#positive_value +[SCOPE.ScriptValue('matchmaking_candidate_quantity')]#! | #tooltip_subheading Уровень контроля Аэрулан -#! [SCOPE.Custom('AeluranMatchmakingDominationScore')]"
+  aeluran_matchmaking.0021.title:0 "Обзор досье кандидатов"
+  aeluran_matchmaking.0021.desc:0 "\n#zero_value «Мой [ROOT.Char.GetLadyLord|U], благодарю за визит. Орден и я собрали множенство кандидатов, которых мы считаем#!"
+  aeluran_matchmaking.0021.desc.lord:0 "#zero_value подходящими для человека вашего положения. Пойдемте, давайте познакомимся с ними.»#!" 
+  aeluran_matchmaking.0021.desc.heir:0 "#zero_value подходящими для вашего [Concept('heir', 'наследника')|E]. Пойдемте, давайте познакомися с ними.»#!"
+  aeluran_matchmaking.0021.desc.stats:0 "\n\n#tooltip_heading Качество кандидатов -#! [SCOPE.Custom('AeluranMatchmakingQualityDesc')]\n$EFFECT_LIST_BULLET$#positive_value +[SCOPE.ScriptValue('matchmaking_respect_bonus_value')]#! | #tooltip_subheading Уважение Аэрулан -#! [SCOPE.Custom('AeluranMatchmakingRespectScore')] #emphasis ([GetPlayer.MakeScope.ScriptValue('aeluran_respect_score_actual')|2+=]/месяц)#![SCOPE.Custom('AeluranMatchmakingGrantedHook')][SCOPE.Custom('AeluranMatchmakingGiftedCrystal')]\n\n#tooltip_heading Разрешенный выбор -#! [SCOPE.Custom('AeluranMatchmakingQuantityDescriptor')|0+]\n$EFFECT_LIST_BULLET$#positive_value +[SCOPE.ScriptValue('matchmaking_candidate_quantity')]#! | #tooltip_subheading Уровень контроля Аэрулан -#! [SCOPE.Custom('AeluranMatchmakingDominationScore')]"
 
   matchmaking_favoritism:0 "Проявил фаворитизм в сватовстве"
 
@@ -82,33 +82,33 @@
   matchmaking_candidate_quality_desc_4:0 "#strong_glow #color_green Бонус за хорошее качество ([SCOPE.ScriptValue('matchmaking_candidate_quality')])#!#!"
   matchmaking_candidate_quality_desc_5:0 "#strong_glow #color_green Бонус за высокое качество ([SCOPE.ScriptValue('matchmaking_candidate_quality')])#!#!"
 
-  gift_spark_crystal_to_the_aeluran_order:0 "Вы дарите свою [spark_crystal.GetName] ордену Аэрулан"
+  gift_spark_crystal_to_the_aeluran_order:0 "Вы дарите свою [spark_crystal.GetName] аэруланскому ордену"
 
   aeluran_matchmaking.0021.granted_hook:0 "\n$EFFECT_LIST_BULLET$#positive_value +1#! | #tooltip_subheading @weak_hook_icon! Granted A Hook#!"
   aeluran_matchmaking.0021.gifted_crystal:0 "\n$EFFECT_LIST_BULLET$#positive_value +2#! | #tooltip_subheading @spark_crystal_icon! Подарил кристалл Искры#!"
 
   aeluran_matchmaking.0021.ok:0 "Пожалуйста, продолжайте."
   aeluran_matchmaking.0021.hook:0 "@weak_hook_icon! Я с радостью обменяюсь услугами."
-  aeluran_matchmaking.0021.crystal:0 "@spark_crystal_icon! У меня есть подарок для Ордена."
+  aeluran_matchmaking.0021.crystal:0 "@spark_crystal_icon! У меня есть подарок для ордена."
 
 # can grab any script value
 # [EmptyScope.ScriptValue('tournament_contest_cost_low_discount_value')|%0P]
 
   aeluran_very_low_respect:0 "#XB Нет уважения#!"
-  aeluran_low_respect:0 "#difficulty_hard Низкое#!"
-  aeluran_neutral_respect:0 "#difficulty_medium Нейтральное#!"
-  aeluran_high_respect:0 "#difficulty_easy Высокое#!"
-  aeluran_very_high_respect:0 "#BOL #G Очень высокое#!#!"
+  aeluran_low_respect:0 "#difficulty_hard Неприязнь#!"
+  aeluran_neutral_respect:0 "#difficulty_medium Нейтральное отношение#!"
+  aeluran_high_respect:0 "#difficulty_easy Симпатия#!"
+  aeluran_very_high_respect:0 "#BOL #G Верность#!#!"
 
   aeluran_matchmaking_candidate_quantity_1:0 "#strong_glow #color_red 1#!#!"
   aeluran_matchmaking_candidate_quantity_2:0 "#strong_glow #color_yellow 2#!#!"
   aeluran_matchmaking_candidate_quantity_3:0 "#strong_glow #color_green 3 (MAX)#!#!"
 
-  aeluran_domination_min_3:0 "#medium_glow #attacker_color #BOL Нет контроля#!#!#!"
+  aeluran_domination_min_3:0 "#medium_glow #attacker_color #BOL Потеря контроля#!#!#!"
   aeluran_domination_min_2:0 "#negative_value #BOL Низкий контроль#!#!"
-  aeluran_domination_min_1:0 "#difficulty_hard Контроль ускользает#!"
-  aeluran_domination_neutral:0 "#difficulty_medium Нейтральный#!"
-  aeluran_domination_plus_1:0 "#difficulty_easy Некоторый контроль#!"
+  aeluran_domination_min_1:0 "#difficulty_hard Убывающий контроль#!"
+  aeluran_domination_neutral:0 "#difficulty_medium Частитчный контроль#!"
+  aeluran_domination_plus_1:0 "#difficulty_easy Умеренный контроль#!"
   aeluran_domination_plus_2:0 "#positive_value #BOL Высокий контроль#!#!"
   aeluran_domination_plus_3:0 "#positive_value_toast #BOL Полный контроль#!#!"
 
@@ -125,28 +125,28 @@
   aeluran_matchmaking.0024.ok:0 "#Bold Обзор вариантов#!"
 
   aeluran_matchmaking.0025.title:0 "Выбор"
-  aeluran_matchmaking.0025.desc:0 "Ну что, мой [ROOT.Char.GetLadyLord|U]? Какой супруг вам больше подходит?"
-  aeluran_matchmaking.0025.no_choice:0 "Ну что, мой [ROOT.Char.GetLadyLord|U]? Сестры моего ордена предоставили вам самого подходящего супруга. Полагаю, [match_choice_1.GetSheHe] подходит?"
+  aeluran_matchmaking.0025.desc:0 "Ну что, мой [ROOT.Char.GetLadyLord|U]? Какой кандидат вам приглянулся?"
+  aeluran_matchmaking.0025.no_choice:0 "Ну что, мой [ROOT.Char.GetLadyLord|U]? Сестры моего ордена предоставили вам самого подходящего кандидата. Полагаю, [match_choice_1.GetSheHe] подходит?"
   aeluran_matchmaking.0025.option_1:0 "[SCOPE.Custom('AeluranMatchmakingCandidateOneSelectionText')]"
   aeluran_matchmaking.0025.option_2:0 "[SCOPE.Custom('AeluranMatchmakingCandidateTwoSelectionText')]"
   aeluran_matchmaking.0025.option_3:0 "[SCOPE.Custom('AeluranMatchmakingCandidateThreeSelectionText')]"
 
-  aeluran_matchmaking.0026.title:0 "Род укреплен"
+  aeluran_matchmaking.0026.title:0 "Династия крепнет!"
   aeluran_matchmaking.0026.desc:0 "Отличный выбор, мой [ROOT.Char.GetLadyLord|U], пусть ваша [Concept('dynasty', 'династия')|E] становится все сильнее. Какую церемонию мы устроим?"
   aeluran_matchmaking.0026.ok:0 "Давайте решим вопрос сейчас!"
   aeluran_matchmaking.0026.grand_wedding:0 "Только Большая свадьба подойдет!"
 
   aeluran_matchmaking.0027.title:0 "Отказ от сватовства оспорен"
-  aeluran_matchmaking.0027.desc:0 "С ясным взглядом и хмурым лицом [host.GetName] говорит: «Боюсь, я должна настоять, мой [ROOT.Char.GetLadyLord]. Это ваша обязанность как эльфийского лорда подчиниться...»\n\nПока [host.GetFirstName] продолжает говорить со все возрастающим тоном; вы чувствуете, как её [Concept('spark_aura', 'аура Искры')|E] давит на вас, пытаясь подавить и подчинить вашу собственную.\n\nЯсно, что простого отказа будет недостаточно. Вам придется победить [host.GetHerHim] в [Concept('battle_of_wills', 'битве Воль')|E]"
+  aeluran_matchmaking.0027.desc:0 "С ясным взглядом и хмурым лицом [host.GetName] говорит: «Боюсь, я должна настоять, мой [ROOT.Char.GetLadyLord]. Это ваша обязанность как эльфийского лорда подчиниться...»\n\nПока [host.GetFirstName] продолжает говорить со все возрастающим тоном; вы чувствуете, как её [Concept('spark_aura', 'свет Искры')|E] давит на вас, пытаясь подавить и подчинить ваш собственный.\n\nЯсно, что простого отказа будет недостаточно. Вам придется победить [host.GetHerHim] в [Concept('battle_of_wills', 'битве Воли')|E]"
   aeluran_matchmaking.0027.learning:0 "Сопротивляться чистой волей."
-  aeluran_matchmaking.0027.intrigue_diplo:0 "Сопротивляться с помощью обаяния."
+  aeluran_matchmaking.0027.intrigue_diplo:0 "Сопротивляться чарующим обаянием."
 
-  aeluran_matchmaking.0028.title:0 "Отказ от сватовства - Победа в битве Воль"
-  aeluran_matchmaking.0028.desc:0 "С последним усилием ваша [Concept('spark_aura', 'аура Искры')|E] охватывает ауру [host.GetNamePossessive], и её воля наконец ломается. Вы видите, как жар покидает [host.GetHerHis] глаза, и [host.GetSheHe] робко говорит: «Как скажете, мой [ROOT.Char.GetLadyLord], мы отложим этот вопрос на другой день»"
-  aeluran_matchmaking.0028.ok:0 "Воистину так"
+  aeluran_matchmaking.0028.title:0 "Отказ от сватовства - Победа в битве воли"
+  aeluran_matchmaking.0028.desc:0 "С последним усилием ваш [Concept('spark_aura', 'свет Искры')|E] охватывает ауру [host.GetNamePossessive], и её воля наконец ломается. Вы видите, как жар покидает [host.GetHerHis] глаза, и [host.GetSheHe] робко говорит: «Как скажете, мой [ROOT.Char.GetLadyLord], мы отложим этот вопрос на другой день»"
+  aeluran_matchmaking.0028.ok:0 "Воистину так."
 
-  aeluran_matchmaking.0029.title:0 "Род должен продолжаться - Поражение в битве Воль"
-  aeluran_matchmaking.0029.desc:0 "Вы усердно боретесь, но как ни старайтесь, воля [host.GetNamePossessive] остается крепкой, как железо. Как будто это было неизбежностью, ваша [Concept('spark_aura', 'аура Искры')|E] поглощается [host.GetFirstNamePossessive], и последние остатки вашего сопротивления угасают.\n\nС явной усмешкой на лице [host.GetFirstName] говорит: «Мой [ROOT.Char.GetLadyLord] сегодня не в себе. Хватит этого, давайте снова рассмотрим ваши варианты.»"
+  aeluran_matchmaking.0029.title:0 "Пара, которой суждено - быть. Поражение в битве воли"
+  aeluran_matchmaking.0029.desc:0 "Вы усердно боретесь, но как ни старайся, воля [host.GetNamePossessive] остается крепкой, как железо. Как будто это было неизбежностью, ваш [Concept('spark_aura', 'свет Искры')|E] поглощается [host.GetFirstNamePossessive], и последние остатки вашего сопротивления угасают.\n\nС явной усмешкой на лице [host.GetFirstName] говорит: «Мой [ROOT.Char.GetLadyLord] сегодня не в себе. Хватит этого, давайте снова рассмотрим ваши варианты.»"
   aeluran_matchmaking.0029.ok:0 "Д-Да, Сестра [host.GetFirstNameNoTooltip]"
 
 
@@ -205,7 +205,7 @@
 
   matchmaking_standard_elf_candidate_desc:0 "[candidate.GetName] — обычный эльф без особых талантов или высокого положения. Однако [candidate.GetSheHe|U] — верный эльф веры и стал бы прекрасным супругом."
 
-  matchmaking_genetic_good_elf_candidate_desc:0 "[candidate.GetName] — эльф с хорошей генетической родословной. Подходящая пара, без сомнения, ваша родословная будет сильна кровью на многие поколения вперед."
+  matchmaking_genetic_good_elf_candidate_desc:0 "[candidate.GetName] — эльф с хорошей генетической родословной. Подходящая пара, без сомнения, ваша династия пере на многие поколения вперед."
 
   matchmaking_genetic_great_elf_candidate_desc:0 "[candidate.GetName] — эльф с выдающейся генетической родословной. Великолепная пара, действительно, ваша родословная будет самой впечатляющей."
 

@@ -1,19 +1,19 @@
 ﻿l_russian:
-    upgrade_beauty_type_decision:0 "Общение с браслетом Нефертити"
-    # upgrade_beauty_type_decision_desc:0 "The Nefertiti's Armband practically radiates with magical energy. Now you occasionally feel subtle pulses of emotion from it in the back of your mind; Calling on you to use its magic.\n\nSurely there could be no danger listening to the temptations of sentient magical objects?"
+ upgrade_beauty_type_decision:0 "Вступить в общение с Повязкой Нефертити"
+ # upgrade_beauty_type_decision_desc:0 "The Nefertiti's Armband practically radiates with magical energy. Now you occasionally feel subtle pulses of emotion from it in the back of your mind; Calling on you to use its magic.\n\nSurely there could be no danger listening to the temptations of sentient magical objects?"
 
-    upgrade_beauty_type_decision_desc:0 "Надетый браслет Нефертити взывает к вам, умоляя напитать его.\n\nС помощью артефакта вы можете забрать красоту других и преобразить себя его магией. Неужели может быть опасность в том, чтобы прислушиваться к искушениям разумных магических предметов?"
+ upgrade_beauty_type_decision_desc:0 "Повязка Нефертити, которую вы носите, зовёт вас, умоляя накормить её.\n\nВысасывая красоту других в артефакт, вы сможете исполнить её просьбу и измениться под действием её магии. Разве может быть опасно прислушиваться к искушениям разумных магических предметов?"
 
-    upgrade_beauty_type_decision_tooltip:0 "Надетый браслет Нефертити взывает к вам, умоляя напитать его.\n\nС помощью артефакта вы можете забрать красоту других и преобразить себя его магией. Неужели может быть опасность в том, чтобы прислушиваться к искушениям разумных магических предметов?"
-    upgrade_beauty_type_decision_confirm:0 "Соединиться с артефактом"
+ upgrade_beauty_type_decision_tooltip:0 "Повязка Нефертити, которую вы носите, зовёт вас, умоляя накормить её.\n\nВысасывая красоту других в артефакт, вы сможете исполнить её просьбу и измениться под действием её магии. Разве может быть опасно прислушиваться к искушениям разумных магических предметов?"
+ upgrade_beauty_type_decision_confirm:0 "Установить связь с артефактом"
 
-    nefertitis_armband_not_enough_stored_power:0 "В браслете Нефертити недостаточно накопленной силы."
+ nefertitis_armband_not_enough_stored_power:0 "У Повязки Нефертити недостаточно накопленной силы."
 
-    you_dont_have_a_beauty_trait:0 "Для общения с браслетом Нефертити у вас должна быть черта Красоты"
+ you_dont_have_a_beauty_trait:0 "Чтобы вступить в общение с Повязкой Нефертити, у вас должна быть черта «Красота»"
 
-    upgrade_beauty_type_effect:0 "Вы усилены магией браслета Нефертити"
+ upgrade_beauty_type_effect:0 "Магия Повязки Нефертити усиливает вас"
 
-    adopt_ancient_egyptian_culture_decision:0 "Возродить древнеегипетскую культуру"
-    adopt_ancient_egyptian_culture_decision_confirm:0 "Мы вернулись"
-    adopt_ancient_egyptian_culture_decision_tooltip:0 "Возродить древнеегипетскую культуру"
-    adopt_ancient_egyptian_culture_decision_desc:0 "Вы - перевоплощённый Фараон из давно минувшей эпохи, и хотя этот мир для вас нов и странен, нет причин принимать, что прошлое мертво.\n\nВозможно, настало время вернуть старые традиции и показать народам этой эпохи, что такое истинная цивилизация."
+ adopt_ancient_egyptian_culture_decision:0 "Возродить культуру Древнего Египта"
+ adopt_ancient_egyptian_culture_decision_confirm:0 "Мы снова в деле"
+ adopt_ancient_egyptian_culture_decision_tooltip:0 "Возродить культуру Древнего Египта"
+ adopt_ancient_egyptian_culture_decision_desc:0 "Вы — перерождённый фараон из давно минувшей эпохи, и хотя этот новый мир чужд и странен вам, нет причин мириться с тем, что прошлое мертво.\n\nВозможно, пришло время возродить старые порядки и показать народам этой эпохи, как выглядит подлинная цивилизация"
